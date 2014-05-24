@@ -3,70 +3,19 @@
 <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
-    <script type="text/javascript" src="/static/js/jquery.min.js"></script>
-    <script type="text/javascript">
-    </script>
+    <!--
+    <script type="text/javascript" src="/static/js/blog.js"></script>
+    -->
 </head>
 <body>
-  <div class="fl pl20" id="sidebar">
-    <div class="" id="info">
-      <div id="avator">
-        <a href="" title="屌丝PHPer，略懂Web安全，Golang爱好者。"><img src="/static/images/avator.png" title="屌丝PHPer，略懂Web安全，Golang爱好者。" /></a>
-      </div>
-      
-      <div class="ft14 center" id="nav" > 
-        <a href="">Blog</a>
-        <a href="resume.html">Resume</a>
-        <a href="bookshelf.html">Bookshelf</a>
-        <a href="https://∏github.com/tabalt" target="_blank">Github</a>
-      </div>
-      <div class="ft12 center pt10" >
-        屌丝PHPer ，略懂Web安全 ，Golang爱好者
-      </div>
+    <div class="wrapper">
+        {% include header.html %}
+        <div class="page pd20" id="main">
+            {{ content }}
+        </div>
     </div>
-    
-    <div class="mt20 block" id="tags">
-      <h2>Tags</h2>
-      <ul class="no-style">        
-        <li class="inline"><a href="/tag/PHP开发/">PHP开发</a></li>          
-        <li class="inline"><a href="/tag/前端开发/">前端开发</a></li>          
-        <li class="inline"><a href="/tag/PHP扩展开发/">PHP扩展开发</a></li>          
-        <li class="inline"><a href="/tag/NoSQL/">NoSQL</a></li>          
-        <li class="inline"><a href="/tag/MongoDB/">MongoDB</a></li>          
-        <li class="inline"><a href="/tag/Redis/">Redis</a></li>          
-        <li class="inline"><a href="/tag/LAMP/">LAMP</a></li>          
-        <li class="inline"><a href="/tag/rsync/">rsync</a></li>
-      </ul>
-    </div>
-    
-    <div class="mt20 block" id="recent-posts">
-      <h2>Recent</h2>
-      <ul class="no-style">
-        <li> <a href="http://www.actphp.com/lamp/centos6.2-apache-mysql-php.html" title="CentOS 6.2编译安装Apache2.4.1 MySQL 5.5.21 PHP5.3.10">CentOS 6.2编译安装Apache2.4.1 MySQL 5.5.21 PHP5.3.10</a></li>
-        <li> <a href="http://www.actphp.com/lamp/json_encode_null.html" title="php数组使用json_encode函数中文被编码成null的原因和解决办法">php数组使用json_encode函数中文被编码成null的原因和解决办法</a></li>
-        <li> <a href="http://www.actphp.com/lamp/Zend Studio.html" title="Zend Studio 9.0.0 永久使用的方法">Zend Studio 9.0.0 永久使用的方法</a></li>
-        <li> <a href="http://www.actphp.com/lamp/64.html" title="MySQL 数据库性能优化之索引优化">MySQL 数据库性能优化之索引优化</a></li>
-        <li> <a href="http://www.actphp.com/seo/63.html" title="网站不在于多，在于精，要充分的考虑好，再去做 ">网站不在于多，在于精，要充分的考虑好，再去做 </a></li>
-        <li> <a href="http://www.actphp.com/seo/62.html" title="企业首页关键词怎么布局呢？">企业首页关键词怎么布局呢？</a></li>
-           </ul>
-    </div>
-    
-    <div class="mt20 block" id="recent-posts">
-      <h2>Popular</h2>
-      <ul class="no-style">
-        <li> <a href="http://www.actphp.com/lamp/centos6.2-apache-mysql-php.html" title="CentOS 6.2编译安装Apache2.4.1 MySQL 5.5.21 PHP5.3.10">CentOS 6.2编译安装Apache2.4.1 MySQL 5.5.21 PHP5.3.10</a></li>
-        <li> <a href="http://www.actphp.com/lamp/json_encode_null.html" title="php数组使用json_encode函数中文被编码成null的原因和解决办法">php数组使用json_encode函数中文被编码成null的原因和解决办法</a></li>
-        <li> <a href="http://www.actphp.com/lamp/Zend Studio.html" title="Zend Studio 9.0.0 永久使用的方法">Zend Studio 9.0.0 永久使用的方法</a></li>
-        <li> <a href="http://www.actphp.com/lamp/64.html" title="MySQL 数据库性能优化之索引优化">MySQL 数据库性能优化之索引优化</a></li>
-        <li> <a href="http://www.actphp.com/seo/63.html" title="网站不在于多，在于精，要充分的考虑好，再去做 ">网站不在于多，在于精，要充分的考虑好，再去做 </a></li>
-        <li> <a href="http://www.actphp.com/seo/62.html" title="企业首页关键词怎么布局呢？">企业首页关键词怎么布局呢？</a></li>
-           </ul>
-    </div>
-  </div>
-  <div class="page fl pd20" id="main">
-    {{ content }}
-    </div>
+    <!-- toTop/ tag sidebar-->
 </body>
-</html> 
+</html>
