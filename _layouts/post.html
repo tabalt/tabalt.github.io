@@ -14,3 +14,18 @@ layout: default
         {{ content }}
     </div>
 </div>
+
+<div id="SOHUCS"></div>
+<script>
+  (function(){
+    var appid = 'cyrbNMS7H',
+    conf = 'prod_1a23a0ece1b3a81f84f4eb5eb9a23a20';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'utf-8';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+  })()
+</script>
