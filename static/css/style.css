@@ -101,8 +101,11 @@ ul li.inline{ display:inline;}
 .block  h2{ border-radius:2px; line-height:30px; font-size:14px; background:#CCCCFF;  text-indent:10px; margin-bottom:10px;}
 .block ul li {}
 
-.post-item { border-bottom:1px dashed #ccc;}
+.post-item { }
 .post-title {  }
-.post-title  h2{ line-height: 40px; }
+.post-title h2{ line-height: 40px; }
+.post-title h2 a { color: #669ACC; }
 .post-content { }
+.post-separate { border-bottom:1px dashed #ccc; padding: 10px 0;}
 
+.thumbnail { max-height: 340px; overflow: hidden; }
