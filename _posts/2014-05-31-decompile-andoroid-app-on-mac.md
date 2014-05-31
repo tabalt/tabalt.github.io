@@ -67,12 +67,6 @@ apk的资源文件都存在上面我们解压的文件夹`./output/test/source/t
 	
 将导出的源码和资源文件合并，就得到我们想要的结果了。
 
-### 自动化
 
-		https://github.com/kwart/jd-cmd
 
-		~/study/apkkiller/soft/src/jd-cmd
-	wget https://github.com/kwart/jd-cmd/archive/master.zip
-	ln -s ~/study/apkkiller/soft/src/jd-cmd ~/study/apkkiller/soft/bin/dex2jar
-	
 	
