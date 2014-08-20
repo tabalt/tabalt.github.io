@@ -7,7 +7,7 @@ encoding: utf-8
 #permalink: pretty
 permalink: /blog/:title
 paginate: 3
-paginate_path: "blog/page_:num"
+paginate_path: "page/:num"
 
 redcarpet:
   extensions: ["tables", "autolink"]
