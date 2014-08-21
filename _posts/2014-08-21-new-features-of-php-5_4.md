@@ -11,11 +11,11 @@ categories: 博文
 PHP 5.4正式版发布于2012年3月，时至今日，已经越来越多的项目线上环境采用了这一版本。而在2014年8月14日，PHP官网发布了5.3的最后一个版本PHP 5.3.29，做为开发者必须得尽快拥抱PHP 5.4了。相比之前的版本，PHP 5.4带来了不少的新特性，本文尝试对这些新特性进行整理和实验。
 
 
-### 1、Traits
+### Traits
 
 Traits是PHP 5.4 新增的最大的语法特性，提供类似Go语言的组合功能，横向扩展PHP类。有关Traits的详细介绍请参考：[PHP中的Traits详解](http://tabalt.net/blog/php-traits/) 
 
-### 2、定义数组的短语法
+### 定义数组的短语法
 
 在PHP5.4之前要定义一个数组，我们需要编写如下代码：
 
@@ -40,7 +40,7 @@ PHP 5.4中我们可以这样定义数组：
     )
 
 
-### 3、函数中返回的数组，可以通过function_name()[key]的方式访问:
+### 函数中返回的数组，可以通过function_name()[key]的方式访问:
 
     <?php
         function getPetList() {
@@ -56,7 +56,7 @@ PHP 5.4中我们可以这样定义数组：
 
     dog
 
-### 4、闭包（匿名函数） 支持 $this
+### 闭包（匿名函数） 支持 $this
 
 在这之前，类内部定义的匿名函数是不能使用我们常用的$this关键字的，现在，下面的代码也能正确运行了：
 
@@ -82,7 +82,7 @@ PHP 5.4中我们可以这样定义数组：
     Fatal error: Using $this when not in object context in ~/anonymous_this.php on line 6
 
 
-### 5、不论short_open_tag是否开启，短标签<?=总是可用
+### 不论short_open_tag是否开启，短标签<?=总是可用
     
 在模板中输出内容时，可以不用关注short_open_tag，直接使用下面的代码输出内容了：
 
@@ -92,7 +92,7 @@ PHP 5.4中我们可以这样定义数组：
 
     <? echo "hello"; ?> 
 
-### 6、在实例化对象时可直接访问类成员
+### 在实例化对象时可直接访问类成员
 
     <?php
         class Hello {
@@ -105,7 +105,7 @@ PHP 5.4中我们可以这样定义数组：
         (new Hello())->say(); 
 
 
-### 7、可调用的类型提示 callable typehint
+### 可调用的类型提示 callable typehint
 
 这个特性是定义函数的形参时，在前面加上一个 callable的关键字，代表函数调用时，传递的实参必须是可以被调用函数名或者是类及其方法的数组。
 
@@ -140,7 +140,7 @@ PHP 5.4中我们可以这样定义数组：
 没错，当声明为callable的参数被传入不存在的函数或者类方法时，php就会报致命错误了。
 
 
-### 8、直接书写二进制数
+### 直接书写二进制数
 
 没有这个特性之前，只能通过bindec函数将二进制字符串转换成十进制：
 
@@ -154,7 +154,7 @@ PHP 5.4中我们可以这样定义数组：
     13
     13
 
-### 9、命令行下的内置web服务器
+### 命令行下的内置web服务器
 
 进入到你的开发目录，执行`php -S localhost:8000`，会将当前目录作为web根目录启动http服务：
 
@@ -202,7 +202,7 @@ PHP 5.4中我们可以这样定义数组：
     php -S localhost:8000 router.php
 
 
-### 10、废弃的特性
+### 废弃的特性
 
 每个新版本的发布，都会移除掉一些过时或者不再重要的特性，了解这些被废弃的用法，有助于我们及时纠正编码习惯，写出更健壮的代码。
 
@@ -219,9 +219,13 @@ PHP 5.4中我们可以这样定义数组：
 ### 扩展资料
 
 http://php.net/releases/5_4_0.php
+
 http://php.net/ChangeLog-5.php#5.4.0
+
 http://www.infoq.com/cn/presentations/hxc-php-54-new-features-performance-optimization
+
 http://php.webtutor.pl/en/2011/09/27/whats-new-in-php-5-4-a-huge-list-of-major-changes/
+
 http://www.oschina.net/question/54100_33123
 
 
