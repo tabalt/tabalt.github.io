@@ -13,8 +13,7 @@ PHP 5.4正式版发布于2012年3月，时至今日，已经越来越多的项�
 
 ### 1、Traits
 
-Traits是PHP 5.4 新增的最大的语法特性，提供类似Go语言的组合功能，横向扩展PHP类。有关Traits的详细介绍请参考：[PHP中的Traits详解](http://tabalt.net/blog/php-traits/)
-m
+Traits是PHP 5.4 新增的最大的语法特性，提供类似Go语言的组合功能，横向扩展PHP类。有关Traits的详细介绍请参考：[PHP中的Traits详解](http://tabalt.net/blog/php-traits/) 
 
 ### 2、定义数组的短语法
 
