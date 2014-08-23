@@ -218,14 +218,10 @@ PHP 5.4中我们可以这样定义数组：
 
 ### 扩展资料
 
-http://php.net/releases/5_4_0.php
-
-http://php.net/ChangeLog-5.php#5.4.0
-
-http://www.infoq.com/cn/presentations/hxc-php-54-new-features-performance-optimization
-
-http://php.webtutor.pl/en/2011/09/27/whats-new-in-php-5-4-a-huge-list-of-major-changes/
-
+http://php.net/releases/5_4_0.php  
+http://php.net/ChangeLog-5.php#5.4.0  
+http://www.infoq.com/cn/presentations/hxc-php-54-new-features-performance-optimization  
+http://php.webtutor.pl/en/2011/09/27/whats-new-in-php-5-4-a-huge-list-of-major-changes/  
 http://www.oschina.net/question/54100_33123
 
 
