@@ -90,7 +90,7 @@ ul li.inline{ display:inline;}
 
 .page {  }
 .page ul{ padding-left:40px;}
-.page  p{ line-height:30px; margin-bottom:10px; }
+.page  p{ line-height:25px; margin-bottom:20px; }
 .page  h3{ border-left:3px solid #dddddd; padding-left:15px; line-height:22px; margin:15px 0; font-size:16px; }
 .page img { border: 1px solid #bababa; box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1); }
 .page pre { background-color: #f8f8f8; border: 1px solid #ddd; font-size: 13px; line-height: 19px; overflow: auto; padding: 6px 10px; border-radius: 3px; }
