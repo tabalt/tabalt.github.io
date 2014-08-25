@@ -46,7 +46,7 @@ categories: 博文
 
 **《代码大全 2》读书笔记**
 
-打好基础  
+[打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/)  
 创建高质量的代码  
 变量  
 语句  
