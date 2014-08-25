@@ -214,3 +214,9 @@ categories: 博文
 
 [主要的构建实践核对表]
 
+
+
+更多有关[《代码大全 2》的读书笔记](http://tabalt.net/blog/code-complete-2-reading-notes/)，请关注 ：  
+[http://tabalt.net/blog/code-complete-2-reading-notes/](http://tabalt.net/blog/code-complete-2-reading-notes/)
+
+
