@@ -48,17 +48,16 @@ categories: 博文
 
 
   [第1部分：打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/)  
-  
   第2部分：创建高质量的代码 
 
   *  [第5章：软件构建中的设计](http://tabalt.net/blog/cc2-design-in-construction/) 
   *  第6章：可以工作的类
   *  第7章：高质量的子程序
   
-变量  
-语句  
-代码改善  
-系统考虑  
-软件工艺  
+  变量  
+  语句  
+  代码改善  
+  系统考虑  
+  软件工艺  
 
 
