@@ -51,7 +51,7 @@ categories: 博文
   第2部分：创建高质量的代码 
 
   *  [第5章：软件构建中的设计](http://tabalt.net/blog/cc2-design-in-construction/) 
-  *  第6章：可以工作的类
+  *  [第6章：可以工作的类](http://tabalt.net/blog/cc2-working-classes/)
   *  第7章：高质量的子程序
   
   变量  
