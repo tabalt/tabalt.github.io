@@ -52,7 +52,7 @@ categories: 博文
 
   *  [第5章：软件构建中的设计](http://tabalt.net/blog/cc2-design-in-construction/) 
   *  [第6章：可以工作的类](http://tabalt.net/blog/cc2-working-classes/)
-  *  第7章：高质量的子程序
+  *  [第7章：高质量的子程序](http://tabalt.net/blog/cc2-high-quality-routines/)
   
   变量  
   语句  
