@@ -47,15 +47,21 @@ categories: 博文
 **《代码大全 2》读书笔记**
 
 
-  [第1部分：打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/)  
+  [第1部分：打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/) 
+  
   第2部分：创建高质量的代码 
 
   *  [第5章：软件构建中的设计](http://tabalt.net/blog/cc2-design-in-construction/) 
   *  [第6章：可以工作的类](http://tabalt.net/blog/cc2-working-classes/)
   *  [第7章：高质量的子程序](http://tabalt.net/blog/cc2-high-quality-routines/)
   *  [第8章：防御式编程](http://tabalt.net/blog/cc2-defensive-programming/)
+  *  第9章：伪代码编程过程
+
+  第3部分：变量 
   
-  变量  
+  * 第10章：使用变量的一般事项
+  * 第11章：变量名的力量
+  
   语句  
   代码改善  
   系统考虑  
