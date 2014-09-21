@@ -141,7 +141,7 @@ categories: 博文
 * 提防下表串话
 * 在C中结合ARRAY_LENGTH()宏
 
-	# define ARRAY_LENGTH(x) (sizeof(x)/sizeof(x[0]))
+		# define ARRAY_LENGTH(x) (sizeof(x)/sizeof(x[0]))
 
 
 #### 9、创建你自己的类型（类型别名）
