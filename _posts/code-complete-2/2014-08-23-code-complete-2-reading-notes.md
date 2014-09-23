@@ -59,10 +59,15 @@ categories: 博文
 
   第3部分：变量 
   
-  * 第10章：使用变量的一般事项
-  * 第11章：变量名的力量
+  * [第10章：使用变量的一般事项](http://tabalt.net/blog/cc2-general-issues-in-using-variables/)
+  * [第11章：变量名的力量](http://tabalt.net/blog/cc2-the-power-of-variable-names/)
+  * [第12章：基本数据类型](http://tabalt.net/blog/cc2-fundamental-data-type/) 
+  * [第13章：不常见的数据类型](http://tabalt.net/blog/cc2-unusual-data-types/)
+
+  第4部分：语句
   
-  语句  
+  * [第14章：组织直线型代码](http://tabalt.net/blog/cc2-organizing-straight-line-code/)
+  
   代码改善  
   系统考虑  
   软件工艺  
