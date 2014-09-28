@@ -7,7 +7,7 @@ title: 首页
 {% for post in paginator.posts %}
 <div class="post-item pb10">
     <div class="post-title mb10">
-        <h2 ><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2 ><a href="{{ post.url }}/">{{ post.title }}</a></h2>
         <p class="ft12">
             {{ post.date | date_to_long_string }} 
         </p>
@@ -16,7 +16,7 @@ title: 首页
         {{ post.content }}
     </div>
     <div class="post-separate">
-        <a href="{{ post.url }}">查看全文</a>
+        <a href="{{ post.url }}/">查看全文</a>
     </div>
 </div>
 {% endfor %}
