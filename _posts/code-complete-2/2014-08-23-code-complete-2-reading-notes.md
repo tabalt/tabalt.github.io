@@ -67,6 +67,7 @@ categories: 博文
   第4部分：语句
   
   * [第14章：组织直线型代码](http://tabalt.net/blog/cc2-organizing-straight-line-code/)
+  * [第15章：使用条件语句](http://tabalt.net/blog/cc2-using-conditionals/)
   
   代码改善  
   系统考虑  
