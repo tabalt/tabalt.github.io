@@ -68,6 +68,8 @@ categories: 博文
   
   * [第14章：组织直线型代码](http://tabalt.net/blog/cc2-organizing-straight-line-code/)
   * [第15章：使用条件语句](http://tabalt.net/blog/cc2-using-conditionals/)
+  * [第16章：控制循环](http://tabalt.net/blog/cc2-controlling-loops/)
+  * [第17章：不常见的控制结构](http://tabalt.net/blog/cc2-unusual-control-structures/)
   
   代码改善  
   系统考虑  
