@@ -70,7 +70,9 @@ categories: 博文
   * [第15章：使用条件语句](http://tabalt.net/blog/cc2-using-conditionals/)
   * [第16章：控制循环](http://tabalt.net/blog/cc2-controlling-loops/)
   * [第17章：不常见的控制结构](http://tabalt.net/blog/cc2-unusual-control-structures/)
-  
+  * [第18章：表驱动法](http://tabalt.net/blog/cc2-table-driven-methods/)
+  * [第19章：一般控制问题](http://tabalt.net/blog/cc2-general-control-issues/)
+
   代码改善  
   系统考虑  
   软件工艺  
