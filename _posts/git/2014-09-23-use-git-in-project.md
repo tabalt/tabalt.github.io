@@ -234,41 +234,41 @@ categories: 博文
 	
 	**merge/patch的冲突解决**
 		
-		当某个文件有冲突产生时，git会在冲突的地方做标记。下面是一个有冲突的文件，冲突标记<<<<<<< （7个<）与=======之间的内容是我的修改，=======与>>>>>>>之间的内容是别人的修改；此外，没有任何其它垃圾文件产生。
+	当某个文件有冲突产生时，git会在冲突的地方做标记。下面是一个有冲突的文件，冲突标记<<<<<<< （7个<）与=======之间的内容是我的修改，=======与>>>>>>>之间的内容是别人的修改；此外，没有任何其它垃圾文件产生。
 
-			$ vim conflict.txt
-				
-				<<<<<<< HEAD
-				//my changes
-				=======
-				//other's changes
-				>>>>>>> commit log
-		
-		直接编辑文件中被标记的地方，将不需要的代表和冲突标记删除。并执行 add、commit操作
+		$ vim conflict.txt
+			
+			<<<<<<< HEAD
+			//my changes
+			=======
+			//other's changes
+			>>>>>>> commit log
+	
+	直接编辑文件中被标记的地方，将不需要的代表和冲突标记删除。并执行 add、commit操作
 
-			git add conflict.txt
-			git commit
+		git add conflict.txt
+		git commit
 				
 
 	**rebase的冲突解决**
 	
-		rebase的冲突解决过程，就是解决每个应用补丁冲突的过程。
+	rebase的冲突解决过程，就是解决每个应用补丁冲突的过程。
 
-		按照上面的操作编辑每一个冲突文件，并一一执行git add 的操作，然后执行下面的命令继续rebase操作：
+	按照上面的操作编辑每一个冲突文件，并一一执行git add 的操作，然后执行下面的命令继续rebase操作：
 
-			git rebase --continue
-		
-		有冲突继续解决，重复这这些步骤，直到rebase完成。
+		git rebase --continue
+	
+	有冲突继续解决，重复这这些步骤，直到rebase完成。
 
-		如果中间遇到某个补丁不需要应用，可以用下面命令忽略：
-		
-			git rebase --skip
-		 
-		如果想回到rebase执行之前的状态，可以执行：
-		
-			git rebase --abort
-		 
-		rebase之后，不需要执行commit，也不存在新的修改需要提交，都是git自动完成。
+	如果中间遇到某个补丁不需要应用，可以用下面命令忽略：
+	
+		git rebase --skip
+	 
+	如果想回到rebase执行之前的状态，可以执行：
+	
+		git rebase --abort
+	 
+	rebase之后，不需要执行commit，也不存在新的修改需要提交，都是git自动完成。
 
 		
 
