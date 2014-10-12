@@ -75,6 +75,9 @@ categories: 博文
 
   第5部分：代码改善  
   
+  * [第20章：软件质量概述](http://tabalt.net/blog/cc2-the-software-quality-landscape/)
+  * [第21章：协同构建](http://tabalt.net/blog/cc2-collaborative-construction/)
+  * [第22章：开发者测试](http://tabalt.net/blog/cc2-developer-testing/)
   
   系统考虑  
   软件工艺  
