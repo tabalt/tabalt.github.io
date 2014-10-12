@@ -73,7 +73,9 @@ categories: 博文
   * [第18章：表驱动法](http://tabalt.net/blog/cc2-table-driven-methods/)
   * [第19章：一般控制问题](http://tabalt.net/blog/cc2-general-control-issues/)
 
-  代码改善  
+  第5部分：代码改善  
+  
+  
   系统考虑  
   软件工艺  
 
