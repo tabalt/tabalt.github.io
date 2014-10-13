@@ -9,7 +9,7 @@ title: 首页
     <div class="post-title mb10">
         <h2 ><a href="{{ post.url }}/">{{ post.title }}</a></h2>
         <p class="ft12">
-            {{ post.date | date_to_long_string }} 
+            {{ post.date | date:"%Y-%m-%d" }} 
         </p>
     </div>
     <div class="post-content thumbnail">
