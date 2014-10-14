@@ -1,0 +1,14 @@
+---
+layout: default
+title: 博文标签
+---
+
+<h3>{{ page.title }}</h3>
+<ul>
+{% for tag in site.tags %}
+    <li>
+        <a href="/tags/{{ tag | first }}.html">{{ tag | first }}</a>
+        （<span class="ft12">{{ tag | last | size }}篇</span>）
+    </li>
+{% endfor %}
+</ul>
