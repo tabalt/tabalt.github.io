@@ -3,7 +3,7 @@
 layout: post
 title:  "分布式版本控制系统git在项目开发中的使用"
 date:   2014-10-11 12:30:00
-categories: 博文
+tags: [git,github,版本控制]
 
 ---
 
