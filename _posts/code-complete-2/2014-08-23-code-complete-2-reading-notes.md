@@ -81,6 +81,9 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   * [第21章：协同构建](http://tabalt.net/blog/cc2-collaborative-construction/)
   * [第22章：开发者测试](http://tabalt.net/blog/cc2-developer-testing/)
   * [第23章：调试](http://tabalt.net/blog/cc2-debugging/)
+  * [第24章：重构](http://tabalt.net/blog/cc2-refactoring/)
+  * [第25章：代码调整策略](http://tabalt.net/blog/cc2-code-tuning-strategies/)
+  * [第26章：代码调整技术](http://tabalt.net/blog/cc2-code-tuning-techniques/)
   
   系统考虑  
   软件工艺  
