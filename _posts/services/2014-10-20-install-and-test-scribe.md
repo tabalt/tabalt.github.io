@@ -17,13 +17,13 @@ scribe是facebook开源的日志收集系统。是一个分布式收集，统一
 
 *该安装步骤在centos 5.9/6.4安装通过*
 
-#### 1、安装 gcc/gcc-c++ etc. 
+#### 1、检查 gcc/gcc-c++ 版本 
 
     gcc –v # 需要版本 > 3.3.5
 
-#### 2、安装 python
-    
-	
+#### 2、检查 python 版本
+
+	python --version  # 需要版本 2.7	
 
 
 #### 3、安装 ruby
