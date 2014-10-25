@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }} - tabalt的博客 / tabalt's blog</title>
+    <title>{% if paginator.page == 1 %}首页{% elsif paginator.page > 1 %}第{{ paginator.page }}页{% endif %}{{ page.title }} - tabalt的博客 / tabalt's blog</title>
     <meta name="keywords" content="{{ page.keywords }}" />
     <meta name="description" content="{{ page.description }}" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
