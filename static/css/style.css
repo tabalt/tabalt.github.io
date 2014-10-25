@@ -112,3 +112,7 @@ ul li.inline{ display:inline;}
 
 .thumbnail { max-height: 340px; overflow: hidden; }
 .highlight { margin-bottom: 5px;}
+
+.tag-list { padding: 10px; border: 1px dashed #ccc;}
+.tag-list a { padding: 2px; }
+

@@ -3,12 +3,21 @@ layout: default
 title: 博文标签
 ---
 
-<h3>{{ page.title }}</h3>
-<ul>
+<div class="tag-list">
 {% for tag in site.tags %}
-    <li>
-        <a href="/tags/{{ tag | first }}.html">{{ tag | first }}</a>
-        （<span class="ft12">{{ tag | last | size }}篇</span>）
-    </li>
+    <a href="#{{ tag | first }}">{{ tag | first }}</a>
 {% endfor %}
-</ul>
+</div>
+
+
+{% for tag in site.tags %}
+    <h3><a name="{{ tag | first }}"></a>{{ tag | first }}</h3>
+    <ul class="item-list">
+        {% for post in tag.last %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+                <span style="font-size:12px; color:#ccc;">{{ post.date | date:"%d/%m/%Y"}}</span>
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
