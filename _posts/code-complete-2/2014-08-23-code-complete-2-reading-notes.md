@@ -85,7 +85,7 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   * [第25章：代码调整策略](http://tabalt.net/blog/cc2-code-tuning-strategies/)
   * [第26章：代码调整技术](http://tabalt.net/blog/cc2-code-tuning-techniques/)
   
-  第6部分：系统考虑  
+  [第6部分：系统考虑 ](http://tabalt.net/blog/cc2-system-considerations/) 
 
   第7部分：软件工艺  
 
