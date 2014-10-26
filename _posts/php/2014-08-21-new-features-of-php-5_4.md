@@ -3,7 +3,7 @@
 layout: post
 title:  "PHP 5.4的新特性"
 date:   2014-08-21 12:30:00
-categories: 博文
+tags: [php]
 
 ---
 

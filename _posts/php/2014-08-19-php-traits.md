@@ -3,7 +3,7 @@
 layout: post
 title:  "PHP中的Traits详解"
 date:   2014-08-19 15:08:00
-categories: 博文
+tags: [php,trait]
 
 ---
 
