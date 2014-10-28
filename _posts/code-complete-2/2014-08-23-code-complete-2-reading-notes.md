@@ -88,5 +88,9 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   [第6部分：系统考虑 ](http://tabalt.net/blog/cc2-system-considerations/) 
 
   第7部分：软件工艺  
-
+  
+  * [第31章：布局与风格](http://tabalt.net/blog/cc2-layout-and-style/)
+  * [第32章：自说明代码](http://tabalt.net/blog/cc2-self-documenting-code/)
+  * [第33章：个人性格](http://tabalt.net/blog/cc2-personal-character/)
+  * [第34章：软件工艺的话题](http://tabalt.net/blog/cc2-themes-in-software-craftsmanship/)
 
