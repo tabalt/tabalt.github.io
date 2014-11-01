@@ -2,7 +2,7 @@
 
 layout: post
 title:  "一份PHP编码规范"
-date:   2014-11-####01 12:30:00
+date:   2014-11-01 12:30:00
 tags: [php]
 
 keywords: php编码规范
