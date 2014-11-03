@@ -26,7 +26,7 @@ description: 《程序员修炼之道》读书笔记
 
 下面是[《程序员修炼之道》读书笔记](http://tabalt.net/blog/the-pragmatic-programmer-reading-notes/)的目录，会持续更新：
 
-* 第1章：注重实效的哲学
+* [第1章：注重实效的哲学](http://tabalt.net/blog/tpp-a-pragmatic-philosophy/)
 * 第2章：注重实效的途径
 
 
