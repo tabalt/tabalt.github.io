@@ -302,12 +302,5 @@ DRY原则是注重实效的程序员的工具箱里最重要的工具之一。
 
 
 
-
-
-
-
-
-
-
 更多有关[《程序员修炼之道》的读书笔记](http://tabalt.net/blog/the-pragmatic-programmer-reading-notes/)，请关注 ：  
 [http://tabalt.net/blog/the-pragmatic-programmer-reading-notes/](http://tabalt.net/blog/the-pragmatic-programmer-reading-notes/)
