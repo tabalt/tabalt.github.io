@@ -46,7 +46,41 @@ description: 《程序员修炼之道》第3章基本工具读书笔记
 	增加、更新、修改纯文本的测试数据是一件简单的事情，无需为此创建任何特殊工具。
 
 
+### 15、shell游戏
 
+
+对于操纵文本文件的程序员，工作台就是命令shell，可以调用你的全套工具，并使用管道、以这些工具原来的开发者从未想过的方式把他们组合在一起。
+
+shell能完成GUI环境受限、不支持、需要自动化处理的工作。GUI的好处是所见即所得（what you see is what you get），缺点是所见即全部所得（what you see is all you get）。
+
+命令行更适宜快速组合一些命令，完成一次查询或某种其他任务：
+
+* 找出修改日期比MakeFile文件更近的全部.c文件
+
+		find . -name '*.c' -newer Makefile -print
+
+* 构造源码的zip/tar存档文件
+
+		zip archive.zip *.h *.c
+		tar cvf archive.tar *.h *.c
+
+* 上周哪些java文件没有改动过
+
+		find . -name '*.java' -mtime +7 -print
+
+* 上面的文件中，哪些使用了awt库
+
+		find . -name '*.java' -mtime +7 -print | xargs grep 'java.awt'
+
+
+`利用命令shell的力量`
+
+熟悉shell，使自己的生产效率迅速提高。
+
+
+**shell使用程序与windows**
+
+windows命令行实用程序不如对ing的Unix使用程序，可安装使用Cygwin、Uwin等软件包改善这种情况。
 
 
 
