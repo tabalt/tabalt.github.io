@@ -29,7 +29,7 @@ description: 《程序员修炼之道》读书笔记
 * [第1章：注重实效的哲学](http://tabalt.net/blog/tpp-a-pragmatic-philosophy/)
 * [第2章：注重实效的途径](http://tabalt.net/blog/tpp-a-pragmatic-approach/)
 * [第3章：基本工具](http://tabalt.net/blog/tpp-the-basic-tools/)
-* 第4章：注重实效的偏执
+* [第4章：注重实效的偏执](http://tabalt.net/blog/tpp-pragmatic-paranoia/)
 
 
 
