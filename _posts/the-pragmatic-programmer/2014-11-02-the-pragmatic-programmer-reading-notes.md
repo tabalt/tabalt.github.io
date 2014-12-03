@@ -31,6 +31,7 @@ description: 《程序员修炼之道》读书笔记
 * [第3章：基本工具](http://tabalt.net/blog/tpp-the-basic-tools/)
 * [第4章：注重实效的偏执](http://tabalt.net/blog/tpp-pragmatic-paranoia/)
 * [第5章：弯曲，或折断](http://tabalt.net/blog/tpp-bend-or-break/)
+* [第6章：当你编码时](http://tabalt.net/blog/tpp-while-you-are-coding/)
 
 
 
