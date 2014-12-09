@@ -32,6 +32,7 @@ description: 《程序员修炼之道》读书笔记
 * [第4章：注重实效的偏执](http://tabalt.net/blog/tpp-pragmatic-paranoia/)
 * [第5章：弯曲，或折断](http://tabalt.net/blog/tpp-bend-or-break/)
 * [第6章：当你编码时](http://tabalt.net/blog/tpp-while-you-are-coding/)
+* [第7章：在项目开始之前](http://tabalt.net/blog/tpp-before-the-project/)
 
 
 
