@@ -32,8 +32,6 @@ storm应用的开发，主要有三个步骤：
 
 下面是一个同步计算输入字符串的MD5值的storm应用，注释中详细介绍了各段代码的含义和用途。
 
-	#Md5Topology.java
-
 	public class Md5Topology {
 	   // 自定义的bolt继承BaseBasicBolt类
 	   public static class Md5Bolt extends BaseBasicBolt {
