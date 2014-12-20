@@ -11,9 +11,9 @@ description: 本文介绍storm应用topology的开发步骤，提供一个storm�
 ---
 
 
-#### 1、storm应用开发步骤
+#### 1、storm拓扑应用开发步骤
 
-storm应用的开发，主要有三个步骤：
+storm拓扑的开发，主要有三个步骤：
 
 * 选择合适的spout
 
