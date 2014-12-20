@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "开发与运行storm应用（topology）"
+title:  "开发与运行storm拓扑应用（topology）"
 date:   2014-12-17 12:30:00
 tags: [storm]
 
