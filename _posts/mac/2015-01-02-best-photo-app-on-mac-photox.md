@@ -11,6 +11,10 @@ tags: mac
 
 直到看到PhotoX，突然发现世界如此美好，个人觉得PhotoX是Mac上最好用的看图软件了，而且支持直接看psd。
 
+下面是PhotoX的图标，看起来很舒服：
+
+![Mac上最好用的免费看图软件PhotoX的图标](/images/photox/photox.png)
+
 
 ### 安装Mac看图软件PhotoX
 
