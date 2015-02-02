@@ -2,7 +2,7 @@
 
 layout: post
 title:  "『Q群技术讨论』移动端APP内嵌HTML5页面，如何提升性能与体验？"
-discuss_key: "improve-performance-of-the-html5-page-embedded-in-the-native-app"
+discuss_key: "improve-performance-of-html5-page-in-native-app"
 date:   2015-02-03 12:30:00
 tags: [html5]
 
