@@ -29,7 +29,68 @@ PSR是PHP通用性框架小组 （[PHP Framework Interop Group](http://www.php-f
 
 ### PSR 1 基本代码规范
 
-* 源文件中必须只使用`<?php ?>` 和 `<?= ?>`
+* 代码中只使用长标签 `<?php ?>` 和 短输出标签`<?= ?>`
+* 文件编码只使用UTF-8 无BOM 格式
+* 一个源文件建议只用来做声明（类(class)，函数(function)，常量(constant)等）或者只用来做一些引起副作用的操作（例如：输出信息，修改.ini配置等）,不建议同时做这两件事
+	* 应该避免的例子，既包含声明又有副作用：
+
+			<?php
+			// 副作用：修改了ini配置
+			ini_set('error_reporting', E_ALL);
+			
+			// 副作用：载入了文件
+			include "file.php";
+			
+			// 副作用：产生了输出
+			echo "<html>\n";
+			
+			// 声明
+			function foo()
+			{
+			    // 函数体
+			}	
+
+	* 提倡的例子，仅包含声明：
+
+			<?php
+			// 声明
+			function foo()
+			{
+			    // 函数体
+			}
+			
+			// 条件式声明不算做是副作用
+			if (! function_exists('bar')) {
+			    function bar()
+			    {
+			        // 函数体
+			    }
+			}
+
+* 一个源文件中只能有一个类(class)，并且每个类(class)至少要有一级空间名（namespace）：即一个顶级的组织名(vendor name)。类名(class name) 必须使用StudlyCaps（骆驼式）写法
+
+		<?php
+		namespace Vendor\Model;
+		
+		class Foo
+		{
+		}
+
+* 类常量必须只由大写字母和下划线(_)组成：
+
+		<?php
+		namespace Vendor\Model;
+		
+		class Foo
+		{
+		    const VERSION = '1.0';
+		    const DATE_APPROVED = '2012-06-01';
+		}
+
+* 类属性命名依据喜好选择形如 $StulyCaps，$camelCase 或者 $unser_score 中的风格，并在一个合理的范围内保持一致
+* 方法名必须使用camelCase(驼峰式)风格来声明。
+
+
 
 ### PSR 2 代码风格指南
 
