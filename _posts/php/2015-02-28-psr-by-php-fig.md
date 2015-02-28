@@ -94,7 +94,15 @@ PSR是PHP通用性框架小组 （[PHP Framework Interop Group](http://www.php-f
 
 ### PSR 2 代码风格指南
 
-
+* 代码使用4个空格来进行缩进，不使用制表符；使用Unix LF(换行)作为行结束符
+* 一行代码的长度不建议有硬限制；软限制必须为120个字符，建议每行代码80个字符或者更少
+* 在命名空间(namespace)的声明下面必须有一行空行，并且在导入(use)的声明下面也必须有一行空行
+* 类(class)的左花括号必须放到其声明下面自成一行，右花括号则必须放到类主体下面自成一行
+* 方法(method)的左花括号必须放到其声明下面自成一行，右花括号则必须放到方法主体的下一行
+* 所有的属性(property)和方法(method) 必须有可见性声明；抽象(abstract)和终结(final)声明必须在可见性声明之前；而静态(static)声明必须在可见性声明之后
+* 所有的属性(property)和方法(method) 必须有可见性声明；抽象(abstract)和终结(final)声明必须在可见性声明之前；而静态(static)声明必须在可见性声明之后
+* 控制结构的左花括号必须跟其放在同一行，右花括号必须放在该控制结构代码主体的下一行
+* 控制结构的左括号之后不可有空格，右括号之前也不可有空格
 
 ### PSR 3 日志接口
 
@@ -103,10 +111,7 @@ PSR是PHP通用性框架小组 （[PHP Framework Interop Group](http://www.php-f
 
 
 
-
-
-
-有一篇之前博文的内容和这份规范非常合拍:[一份PHP编码规范](http://tabalt.net/blog/a-php-coding-standards/)。
+有一篇之前博文的内容和这份规范非常契合:[一份PHP编码规范](http://tabalt.net/blog/a-php-coding-standards/)。
 
 
 
