@@ -29,7 +29,7 @@ Composer本身就是PHP开发的，打包成了一个phar文件，安装起来�
 	mkdir -p ~/study/composer_demo
 	cd ~/study/composer_demo
 
-在项目目录中创建Composer的json格式的配置文件 composer.json，填入以下内容：
+在项目目录中创建 composer.json文件，填入以下内容：
 
 	
 	{
@@ -55,4 +55,39 @@ Composer本身就是PHP开发的，打包成了一个phar文件，安装起来�
 	Generating autoload files
 	
 
-### 
+### 配置文件composer.json
+
+使用Composer需要在你的项目目录中添加 json格式的配置文件 composer.json，通过这个文件指定当前项目的描述元数据以及项目依赖。
+
+常见配置项：
+
+| 配置指令 | 说明 | 示例 |
+| ------ | ------ | ------ |
+| name | 可安装包的名称 | "name": "tabalt/composerdemo" |
+| description | 描述 |  |
+| authors | 作者 |  |
+| version | 指定版本 | "version": "1.0.0" |
+| require |  指定依赖的包 |  "require": { "monolog/monolog": "1.0.*"  }  |
+| repositories | 申明仓库地址 | "repositories": [{ "type": "vcs", "url": "https://github.com/tabalt/composerdemo" }] |
+
+使用composer init可以用向导的形式创建composer.json文件，一个较为详细的配置如下：
+
+```
+{
+    "name": "tabalt/composerdemo",
+    "description": "composer demo description",
+    "version": "1.0.0",
+    "require": {
+        "monolog/monolog": "~1.13"
+    },
+    "authors": [
+        {
+            "name": "tabalt",
+            "email": "tabalt@actphp.com"
+        }
+    ]
+}
+
+```
+
+
