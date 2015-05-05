@@ -91,3 +91,61 @@ Composer本身就是PHP开发的，打包成了一个phar文件，安装起来�
 ```
 
 
+### Composer类自动加载
+
+Composer的配置文件中支持autoload配置项，用于支持php类的自动加载：
+
+```
+{
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": ""
+        },
+        "psr-0": {
+            "Monolog\\": "src/",
+            "Vendor\\Namespace\\": "src/",
+            "Vendor_Namespace_": "src/"
+        },
+        "classmap": [
+        	"src/", 
+        	"lib/", 
+        	"Something.php"
+        ],
+        "files": [
+        	"src/MyLibrary/functions.php"
+        ]
+    }
+}
+
+```
+
+修改autoload配置后，需要`composer install` 重新生成`vendor/autoload.php`，然后在你的代码里包含这个文件。
+
+```
+# 包含autoload文件，并可设置更多命名空间
+$Loader = require 'vendor/autoload.php';
+$Loader->add('Tabalt\\Test\\', __DIR__);
+```
+
+
+### 锁文件 composer.lock
+
+Composer 会将安装时确切的版本号列表写入 composer.lock 文件。composer install 命令执行时，如果存在锁文件，它将下载文件中指定的版本而忽略 composer.json 文件中的定义。
+
+锁文件 composer.lock 和配置文件  composer.json 都应该提交到版本库中。
+
+
+### 更多内容
+
+
+更多内容可以参考Composer的官方文档：
+
+https://getcomposer.org/doc/
+
+英文不好的同学可以参考中文版翻译：
+
+http://docs.phpcomposer.com/
+
+
+
