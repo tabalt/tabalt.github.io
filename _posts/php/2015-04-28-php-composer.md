@@ -70,7 +70,7 @@ Composer本身就是PHP开发的，打包成了一个phar文件，安装起来�
 | require |  指定依赖的包 |  "require": { "monolog/monolog": "1.0.*"  }  |
 | repositories | 申明仓库地址 | "repositories": [{ "type": "vcs", "url": "https://github.com/tabalt/composerdemo" }] |
 
-使用composer init可以用向导的形式创建composer.json文件，一个较为详细的配置如下：
+使用`composer init`可以用向导的形式创建composer.json文件，一个较为详细的配置如下：
 
 ```
 {
@@ -134,6 +134,27 @@ $Loader->add('Tabalt\\Test\\', __DIR__);
 Composer 会将安装时确切的版本号列表写入 composer.lock 文件。composer install 命令执行时，如果存在锁文件，它将下载文件中指定的版本而忽略 composer.json 文件中的定义。
 
 锁文件 composer.lock 和配置文件  composer.json 都应该提交到版本库中。
+
+
+### Composer常用命令
+
+在命令行下，我们经常需要使用`composer + 命令`的形式来完成我们的工作，常用的命令如下表：
+
+| 命令 |  功能 |
+| ------ |  ------ |
+| list | 列出命令 |
+| init |  以交互的方式创建composer.json配置文件 |
+| install | 读取配置，处理依赖，并安装到vendor目录 |
+| update | 获取依赖的最新版本，并升级 composer.lock 文件 |
+| require | 增加新的依赖包到当前目录的 composer.json 文件 |
+| show | 列出所有可用的软件包，指定包名称可以查看包的详细信息 |
+| search | 搜索 packagist.org 上的依赖包 |
+| validate | 检测 composer.json 文件是否有效 |
+| depends | 查出已安装在你项目中的某个包，是否正被其它的包所依赖，并列出他们 |
+| status  | 检查从自定义源安装的包的改动 |
+| self-update | 将 Composer 自身升级到最新版本 |
+
+每个命令都有不同的参数，具体可以参加官方文档
 
 
 ### 更多内容
