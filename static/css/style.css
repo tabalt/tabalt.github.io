@@ -116,3 +116,19 @@ ul li.inline{ display:inline;}
 .tag-list { padding: 10px; border: 1px dashed #ccc;}
 .tag-list a { padding: 2px; }
 
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    font-weight: bold;
+}
