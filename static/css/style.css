@@ -105,8 +105,8 @@ ul li.inline{ display:inline;}
 
 .post-item { }
 .post-title {  }
-.post-title h2{ line-height: 40px; text-decoration: none; font-size:20px;}
-.post-title h2 a { color: #669ACC; }
+.post-title h2{ line-height: 40px; }
+.post-title h2 a { color: #669ACC; text-decoration: none; font-size:20px;}
 .post-content { }
 .post-separate { border-bottom:1px dashed #ccc; padding: 10px 0;}
 .post-item  .time { color:#ccc;}
