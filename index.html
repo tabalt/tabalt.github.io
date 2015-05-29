@@ -10,15 +10,12 @@ description: 屌丝PHPer，略懂Web安全，Golang爱好者。
 <div class="post-item pb10">
     <div class="post-title mb10">
         <h2 ><a href="{{ post.url }}/">{{ post.title }}</a></h2>
-        <p class="ft12">
-            {{ post.date | date:"%Y-%m-%d" }} 
-        </p>
     </div>
     <div class="post-content thumbnail">
-        {{ post.content }}
-    </div>
-    <div class="post-separate">
-        <a href="{{ post.url }}/">查看全文</a>
+        {{ post.excerpt | strip_html | strip }}
+		<span class="ft12">
+            {{ post.date | date:"%Y-%m-%d" }} 
+        </span>
     </div>
 </div>
 {% endfor %}
