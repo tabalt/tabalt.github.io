@@ -8,18 +8,17 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
     <script type="text/javascript" src="/static/js/blog.js"></script>
+     <link rel="shortcut icon" href="/static/images/avator.png">
 </head>
 <body>
-    <div class="wrapper">
-        {% include header.html %}
-        <div class="page pd20" id="main">
-            {{ content }}
-        </div>
-
-        {% if paginator.page == 1 %}
-        {% include link.html %}
-        {% endif %}
+    {% include header.html %}
+    <div class="container page pd20" id="main">
+        {{ content }}
     </div>
+
+    {% if paginator.page == 1 %}
+    {% include link.html %}
+    {% endif %}
     <!-- toTop/ tag sidebar-->
     <div style="display:none;">
         <script type="text/javascript">

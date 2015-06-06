@@ -1,11 +1,14 @@
 <div class="header">
-    <div id="avator">
-        <a href="/" title="屌丝PHPer，略懂Web安全，Golang爱好者。"><img src="/static/images/avator.png" title="屌丝PHPer，略懂Web安全，Golang爱好者。" /></a>
-    </div>
-    <div id="nav">
-        <div class="ft14 menu" > 
-            <a href="/">首页</a>
-            <a href="/tags/">标签</a>
+    
+    <div class="container" id="nav">
+        <h1 class="fl">
+            <a href="/" title="屌丝PHPer，略懂Web安全，Golang爱好者。">
+                <img id="avator" src="/static/images/avator.png" />tabalt
+            </a>
+        </h1>
+        <div class="ft14 menu fr" > 
+            <a href="/" class="{% if page.menu_selected == 'home' %}selected{% endif %}">首页</a>
+            <a href="/tags/" class="{% if page.menu_selected == 'tags' %}selected{% endif %}">标签</a>
             <!--
             <a href="/opensource/">开源</a>
             <a href="/resume/">简历</a>
@@ -14,9 +17,6 @@
             <a href="https://github.com/tabalt" target="_blank">GitHub</a>
             <a href="http://weibo.com/245291359" target="_blank">Weibo</a>
             
-        </div>
-        <div class="ft12 desc" >
-            屌丝PHPer ，略懂Web安全 ，Golang爱好者
         </div>
     </div>
 </div>
