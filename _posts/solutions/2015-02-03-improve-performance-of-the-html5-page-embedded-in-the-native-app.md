@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "『Q群技术讨论』移动端APP内嵌HTML5页面，如何提升性能与体验？"
+title:  "[Q群技术讨论] 移动端APP内嵌HTML5页面，如何提升性能与体验？"
 discuss_key: "improve-performance-of-html5-page-in-native-app"
 date:   2015-02-03 12:30:00
 tags: [html5]
@@ -11,8 +11,6 @@ description: 移动端APP内嵌HTML5页面，可以减少工作量，提高开�
 
 ---
 
-
-### 话题
 
 最近，我们的APP上线了一个聚会功能，对于内容呈现部分都采用移动WEB来实现，这样做的好处是减少重复工作量。确定的是体验会打折扣，那么有没有办法把聚会详情页面性能进一步提高呢？（例如页面加载速度）需要考虑哪些可以提高性能的方面？
 
