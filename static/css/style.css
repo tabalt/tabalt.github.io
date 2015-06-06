@@ -20,12 +20,8 @@ th, td {
 
 body,
 button, input, select, textarea /* for ie */ {
-    /*
-    font: 14px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
-    */
     font: 14px/1.4 "Helvetica Neue","Microsoft Yahei","Microsoft Sans Serif","WenQuanYi Micro Hei",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
 }
-/*h1, h2, h3, h4, h5, h6 { font-size: 100%; } */
 address, cite, dfn, em, var { font-style: normal; } 
 code, kbd, pre, samp { font-family: courier new, courier, monospace; } 
 small { font-size: 12px; }
@@ -81,10 +77,6 @@ ul li.inline{ display:inline;}
 
 /* blog */
 
-/*
-.wrapper { width: 900px; margin: 20px auto; box-shadow: 0 1px 6px rgba(124, 124, 124, 0.42); }
-*/
-
 a {
     color: #333;
     text-decoration: none;
@@ -99,12 +91,6 @@ a:hover {
     padding: 20px; 
     border-bottom: 1px solid #eee;
 }
-
-/*
-#avator { 
-    float: left; 
-    padding: 10px 0;
-}*/
 
 #nav {
 }
@@ -186,7 +172,7 @@ a:hover {
     
 }
 .highlight { 
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .tag-list { 
