@@ -128,6 +128,12 @@ a:hover {
 .page { 
     padding-top: 30px;
 }
+.page a{
+    color: #4183c4;
+    text-decoration: underline;
+}
+
+
 .page ul{ padding-left:40px; margin-bottom: 10px;}
 .page p{ line-height:28px; margin-bottom:20px; }
 .page h3{ border-left:3px solid #dddddd; padding-left:15px; line-height:22px; margin:20px 0; font-size:16px; }
@@ -139,7 +145,7 @@ a:hover {
 .page pre code { background-color: #f8f8f8; color:#737373; font-size: 11px; padding: 0; }
 
 .block {  }
-.block  h2{ border-radius:2px; line-height:30px; font-size:14px; background:#CCCCFF;  text-indent:10px; margin-bottom:10px;}
+.block h2{ border-radius:2px; line-height:30px; font-size:14px; background:#CCCCFF;  text-indent:10px; margin-bottom:10px;}
 .block ul li {}
 
 .post-item { }
@@ -175,16 +181,6 @@ a:hover {
 .highlight { 
     margin-bottom: 20px;
 }
-
-/*
-.tag-list { 
-    padding: 10px; 
-    border: 1px dashed #ccc;
-}
-.tag-list a { 
-    padding: 2px; 
-}
-*/
 
 .pagination {
 
@@ -254,11 +250,6 @@ table th {
 #waterfall ul li{
     line-height: 25px;
     color: #666;
-}
-
-#waterfall ul li a{
-    color: #4183c4;
-    text-decoration: underline;
 }
 
 @media screen and (max-width: 980px) {
