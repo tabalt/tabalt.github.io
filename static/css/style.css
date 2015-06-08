@@ -108,6 +108,7 @@ a:hover {
 }
 
 .menu { 
+
 }
 .menu a { 
     display: inline-block; 
@@ -175,6 +176,7 @@ a:hover {
     margin-bottom: 20px;
 }
 
+/*
 .tag-list { 
     padding: 10px; 
     border: 1px dashed #ccc;
@@ -182,7 +184,7 @@ a:hover {
 .tag-list a { 
     padding: 2px; 
 }
-
+*/
 
 .pagination {
 
@@ -206,4 +208,61 @@ table th, table td {
 
 table th {
     font-weight: bold;
+}
+
+#waterfall {
+    
+}
+#waterfall .tag-list {
+    /* 栏宽度 */
+    -webkit-column-width:330px;
+    -moz-column-width:330px;
+    -o-colum-width:330px;
+    column-width:330px;
+    /* 两栏之间的间距 */
+    /*
+    -webkit-column-gap:1px;
+    -moz-column-gap:1px;
+    -o-column-gap:1px;
+    column-gap:1px;
+    */
+}
+#waterfall .tag-item{
+    border:1px solid #eee;
+    display:inline-block;
+    width:328px;
+    margin-bottom:20px;
+}
+
+#waterfall .tag-item h4 {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#waterfall ul {
+    list-style:none; 
+    padding-left: 0px;
+    font-size: 14px;
+    padding:5px;
+}
+
+#waterfall ul li{
+    line-height: 25px;
+    color: #666;
+}
+
+#waterfall ul li a{
+    color: #4183c4;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+    .menu {
+        display: none;
+    }
 }
