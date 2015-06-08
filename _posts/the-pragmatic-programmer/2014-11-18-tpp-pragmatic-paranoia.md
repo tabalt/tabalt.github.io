@@ -3,7 +3,7 @@
 layout: post
 title:  "第4章：注重实效的偏执"
 date:   2014-11-18 12:30:00
-tags: []
+tags: [程序员修炼之道]
 
 keywords: 注重实效的偏执,注重实效的偏执读书笔记
 description: 《程序员修炼之道》第4章注重实效的偏执读书笔记

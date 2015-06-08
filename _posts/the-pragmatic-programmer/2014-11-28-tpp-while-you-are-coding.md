@@ -3,7 +3,7 @@
 layout: post
 title:  "第6章：当你编码时"
 date:   2014-11-28 12:30:00
-tags: []
+tags: [程序员修炼之道]
 
 keywords: 当你编码时,当你编码时读书笔记
 description: 《程序员修炼之道》第6章当你编码时读书笔记

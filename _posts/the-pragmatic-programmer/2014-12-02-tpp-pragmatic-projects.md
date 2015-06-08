@@ -3,7 +3,7 @@
 layout: post
 title:  "第8章：注重实效的项目"
 date:   2014-12-02 12:30:00
-tags: []
+tags: [程序员修炼之道]
 
 keywords: 注重实效的项目,注重实效的项目读书笔记
 description: 《程序员修炼之道》第8章注重实效的项目读书笔记

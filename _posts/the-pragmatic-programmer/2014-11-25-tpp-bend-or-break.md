@@ -3,7 +3,7 @@
 layout: post
 title:  "第5章：弯曲，或折断"
 date:   2014-11-25 12:30:00
-tags: []
+tags: [程序员修炼之道]
 
 keywords: 弯曲，或折断,弯曲，或折断读书笔记
 description: 《程序员修炼之道》第5章弯曲，或折断读书笔记
