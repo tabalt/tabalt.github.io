@@ -3,7 +3,7 @@
 layout: post
 title:  "PhotoX：Mac上最好用的免费看图软件"
 date:   2015-01-02 11:30:00
-tags: mac
+tags: [mac]
 
 ---
 

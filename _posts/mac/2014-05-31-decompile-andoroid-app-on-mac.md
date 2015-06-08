@@ -4,6 +4,7 @@ layout: post
 title:  "Mac OS上反编译android app的环境搭建"
 date:   2014-05-31 10:30:00
 categories: 博文
+tags: [mac,andorid]
 
 ---
 

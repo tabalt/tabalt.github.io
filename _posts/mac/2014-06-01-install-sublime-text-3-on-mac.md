@@ -4,7 +4,7 @@ layout: post
 title:  "Mac OS上sublime text 3的安装与配置"
 date:   2014-06-01 10:30:00
 categories: 博文
-
+tags: [mac,sublime]
 ---
 
 

@@ -4,6 +4,7 @@ layout: post
 title:  "Mac OS使用brew安装Nginx、MySQL、PHP-FPM的LAMP开发环境"
 date:   2014-05-28 16:50:00
 categories: 博文
+tags: [mac,nginx,php,mysql]
 
 ---
 
