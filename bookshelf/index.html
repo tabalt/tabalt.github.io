@@ -1,0 +1,19 @@
+---
+layout: default
+title: 书架
+menu_selected : bookshelf
+---
+
+<div id="bookshelf">
+    {% for category in site.data.booklist %}
+    <h2>{{ category.name }}</h2>
+    <div class="book-list">
+        {% for book in category.members %}
+            <div class="book-item">
+                <a href="{{ book.url }}" title="{{ book.name }}"><img src="{{ book.pic }}" alt="{{ book.name }}" /></a>
+                <h4><a href="{{ book.url }}">{{ book.name }}</a></h4>
+            </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>

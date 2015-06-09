@@ -252,6 +252,45 @@ table th {
     color: #666;
 }
 
+#bookshelf {
+}
+
+#bookshelf h2{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    text-align: center;
+    
+}
+
+#bookshelf .book-item {
+    display: inline-block;
+    width: 125px;
+    height: 165px;
+    margin: 0 auto;
+    padding: 16px;
+    outline: 0;
+    padding-left: 25px;
+}
+
+#bookshelf .book-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#bookshelf .book-item h4 {
+    width: 125px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    margin:0;
+}
+
 @media screen and (max-width: 980px) {
     .menu {
         display: none;

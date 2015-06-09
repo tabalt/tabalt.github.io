@@ -1,0 +1,13 @@
+- name : 技术
+  members :
+    - name: Go语言编程
+      pic: /images/book/golang-program.jpg
+      url: 
+
+- name : 人文
+  members :
+    - name: 
+      pic: 
+      url: 
+
+
