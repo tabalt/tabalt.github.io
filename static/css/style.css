@@ -296,4 +296,11 @@ table th {
     .menu {
         display: none;
     }
+    #bookshelf .book-item {
+        width: 278px;
+    }
+
+    #bookshelf .book-item {
+        padding-left: 22px;
+    }
 }
