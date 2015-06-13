@@ -77,15 +77,17 @@ ul li.inline{ display:inline;}
 
 /* blog */
 
-a {
+a, a:visited{
     color: #333;
     text-decoration: none;
 }
+
 a:hover { 
     text-decoration: underline; 
 }
 
-.header { 
+
+#header { 
     color: #333; 
     height: 30px; 
     padding: 20px; 
@@ -126,7 +128,7 @@ a:hover {
 .desc { padding-top: 5px; }
 
 .page { 
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .page a{
     color: #4183c4;
@@ -207,7 +209,7 @@ table th {
 }
 
 #waterfall {
-    
+    padding-top: 10px;
 }
 #waterfall .tag-list {
     /* 栏宽度 */
@@ -293,8 +295,28 @@ table th {
 }
 
 @media screen and (max-width: 980px) {
+    #header {
+        height: auto;
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+
+    #nav h1 {
+        float: none;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+
+    }
+
     .menu {
-        display: none;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu a {
+        margin: 10px 0px;
     }
 
     #waterfall .tag-item {
