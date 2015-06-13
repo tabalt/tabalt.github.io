@@ -3,11 +3,72 @@
     - name: Go语言编程
       pic: /images/book/golang-program.jpg
       url: 
-
-- name : 人文
-  members :
-    - name: 
-      pic: 
+    - name: Go Web编程
+      pic: /images/book/go-web-program.jpg
       url: 
+    - name: MongoDB权威指南
+      pic: /images/book/mongodb-qwzn.jpg
+      url: 
+    - name: Redis设计与实现
+      pic: /images/book/redis-sjysx.jpg
+      url: 
+    - name: Redis入门指南
+      pic: /images/book/redis-rmzn.jpg
+      url: 
+    - name: Web之困
+      pic: /images/book/webzhikun.jpg
+      url: 
+    - name: 白帽子讲Web安全
+      pic: /images/book/baimaozi-web-anquan.jpg
+      url: 
+    - name: 云计算核心技术剖析
+      pic: /images/book/yunjisuan-hexinjishupouxi.jpg
+      url: 
+    - name: PHP高级程序设计 模式框架与测试
+      pic: /images/book/php-gjcxsj-mskjycs.jpg
+      url: 
+    - name: 鸟哥的Linux私房菜 基础学习篇
+      pic: /images/book/niaoge-linux-jichu.jpg
+      url:
+    - name: 鸟哥的Linux私房菜 服务器架设篇
+      pic: /images/book/niaoge-linux-server.jpg
+      url:
+    - name: HTTP权威指南
+      pic: /images/book/http-qwzn.jpg
+      url:
+    - name: 代码大全
+      pic: /images/book/code-complete.jpg
+      url:
+    - name: JavaScript权威指南
+      pic: /images/book/javascript-qwzn.jpg
+      url:
+    - name: 推荐系统实践
+      pic: /images/book/tuijianxitongshijian.jpg
+      url:
+    - name: 深入理解Nginx：模块开发与架构解析
+      pic: /images/book/understanding-nginx.jpg
+      url:
+    - name: 程序员修炼之道：从小工到专家
+      pic: /images/book/cxyxlzd.jpg
+      url:
 
-
+- name : 产品 & 人文
+  members :
+    - name: 移动的帝国 
+      pic: /images/book/yidongdediguo.jpg
+      url: 
+    - name: MacTalk 人生元编程 
+      pic: /images/book/mac-talk-rsybc.jpg
+      url: 
+    - name: 看见 
+      pic: /images/book/kanjian.jpg
+      url:
+    - name: 看见 
+      pic: /images/book/weixinsiwei.jpg
+      url:
+    - name: 周鸿祎自述：我的互联网方法论 
+      pic: /images/book/zhouhongyi-zishu-wdhlwffl.jpg
+      url:
+    - name: 浪潮之巅 
+      pic: /images/book/langchaozhidian.jpg
+      url:

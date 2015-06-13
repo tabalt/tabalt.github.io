@@ -10,10 +10,41 @@ menu_selected : bookshelf
     <div class="book-list">
         {% for book in category.members %}
             <div class="book-item">
-                <a href="{{ book.url }}" title="{{ book.name }}"><img src="{{ book.pic }}" alt="{{ book.name }}" /></a>
-                <h4><a href="{{ book.url }}">{{ book.name }}</a></h4>
+                <a href="javascript:void(0)" target="_blank" class="book-click" title="{{ book.name }}" data-name="{{ book.name }}"><img src="{{ book.pic }}" alt="{{ book.name }}" /></a>
+                <h4><a href="javascript:void(0)" target="_blank" class="book-click" data-name="{{ book.name }}">{{ book.name }}</a></h4>
             </div>
         {% endfor %}
     </div>
     {% endfor %}
 </div>
+
+<script type="text/javascript">
+    window.onload = function(){
+
+        var click_list = document.querySelectorAll(".book-click"); 
+        for( var k in click_list){
+            if (typeof(click_list[k]) == 'object') {
+                var book_name = click_list[k].getAttribute("data-name");
+                var click_url = get_book_click_url(book_name);
+
+                click_list[k].setAttribute("href",click_url);
+            }
+        }
+        
+    }
+
+    function get_book_click_url(book_name) {
+
+        var this_url = 'http://tabalt.net/bookshelf/';
+        var ad_client = 'p-276243';
+
+        var click_url = 'http://search.dangdang.com/?key='+ encodeURI(book_name)
+            + '#dd_refer=http://union.dangdang.com/ads/unionads/?client=' 
+            + ad_client + '&ad_client=' + ad_client 
+            + '&ad_format=40&open_target=_blank&ad_width=400&ad_height=40&url=' 
+            + encodeURI(this_url) +'&u_h=900&u_w=1440&u_ah=811&u_aw=1440&u_cd=24&u_tz=480'
+            + '&u_his=1&u_java=true&u_nplug=16&u_nmime=37';
+
+        return click_url;
+    }
+</script>
