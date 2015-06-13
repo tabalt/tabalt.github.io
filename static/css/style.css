@@ -313,7 +313,6 @@ table th {
 
 @media screen and (max-width: 384px) {
 
-
     #bookshelf .book-item {
         padding-left: 25px;
         
@@ -322,12 +321,20 @@ table th {
 
 @media screen and (max-width: 375px) {
 
-
     #bookshelf .book-item {
         padding-left: 22px;
         
     }
 }
+
+@media screen and (max-width: 360px) {
+
+    #bookshelf .book-item {
+        padding-left: 16px;
+        
+    }
+}
+
 
 @media screen and (max-width: 320px) {
 
