@@ -296,11 +296,44 @@ table th {
     .menu {
         display: none;
     }
+
     #waterfall .tag-item {
-        width: 278px;
+        width: 98%;
     }
+    
+}
+
+@media screen and (max-width: 414px) {
+
+    #bookshelf .book-item {
+        padding-left: 32px;
+        
+    }
+}
+
+@media screen and (max-width: 384px) {
+
+
+    #bookshelf .book-item {
+        padding-left: 25px;
+        
+    }
+}
+
+@media screen and (max-width: 375px) {
+
 
     #bookshelf .book-item {
         padding-left: 22px;
+        
     }
+}
+
+@media screen and (max-width: 320px) {
+
+    #bookshelf .book-item {
+        padding-left: 2px;
+        width: 120px;
+    }
+
 }
