@@ -1,6 +1,7 @@
 name: tabalt's blog
 markdown: redcarpet
 pygments: true
+highlighter: pygments
 baseurl: /
 encoding: utf-8
 
