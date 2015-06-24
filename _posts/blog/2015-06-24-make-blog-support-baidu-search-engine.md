@@ -84,7 +84,7 @@ cd ~/mydomain.com/
 jekyll serve --port 80 --host 192.168.1.101 --detach
 ```
 
-绑host 测试，能正常访问则搭建完成。更多Jekyll的用法可以参考文档： http://jekyllrb.com/docs/usage/。
+绑host 测试，能正常访问则搭建完成。更多Jekyll的用法可以参考文档： http://jekyllrb.com/docs/usage/ 。
 
 
 * 使用web服务器Nginx
