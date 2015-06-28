@@ -50,9 +50,9 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
 **《代码大全 2》读书笔记**
 
 
-  [第1部分：打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/) 
+* [第1部分：打好软件构建的基础](http://tabalt.net/blog/cc2-laying-the-foundation/) 
   
-  第2部分：创建高质量的代码 
+* 第2部分：创建高质量的代码 
 
   *  [第5章：软件构建中的设计](http://tabalt.net/blog/cc2-design-in-construction/) 
   *  [第6章：可以工作的类](http://tabalt.net/blog/cc2-working-classes/)
@@ -60,14 +60,16 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   *  [第8章：防御式编程](http://tabalt.net/blog/cc2-defensive-programming/)
   *  [第9章：伪代码编程过程](http://tabalt.net/blog/cc2-the-pseudocode-programming-process/)
 
-  第3部分：变量 
+
+* 第3部分：变量 
   
   * [第10章：使用变量的一般事项](http://tabalt.net/blog/cc2-general-issues-in-using-variables/)
   * [第11章：变量名的力量](http://tabalt.net/blog/cc2-the-power-of-variable-names/)
   * [第12章：基本数据类型](http://tabalt.net/blog/cc2-fundamental-data-type/) 
   * [第13章：不常见的数据类型](http://tabalt.net/blog/cc2-unusual-data-types/)
 
-  第4部分：语句
+
+* 第4部分：语句
   
   * [第14章：组织直线型代码](http://tabalt.net/blog/cc2-organizing-straight-line-code/)
   * [第15章：使用条件语句](http://tabalt.net/blog/cc2-using-conditionals/)
@@ -76,7 +78,8 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   * [第18章：表驱动法](http://tabalt.net/blog/cc2-table-driven-methods/)
   * [第19章：一般控制问题](http://tabalt.net/blog/cc2-general-control-issues/)
 
-  第5部分：代码改善  
+
+* 第5部分：代码改善  
   
   * [第20章：软件质量概述](http://tabalt.net/blog/cc2-the-software-quality-landscape/)
   * [第21章：协同构建](http://tabalt.net/blog/cc2-collaborative-construction/)
@@ -85,10 +88,12 @@ description: 《代码大全 2》不是一本容易读的书，该系列文章�
   * [第24章：重构](http://tabalt.net/blog/cc2-refactoring/)
   * [第25章：代码调整策略](http://tabalt.net/blog/cc2-code-tuning-strategies/)
   * [第26章：代码调整技术](http://tabalt.net/blog/cc2-code-tuning-techniques/)
-  
-  [第6部分：系统考虑 ](http://tabalt.net/blog/cc2-system-considerations/) 
 
-  第7部分：软件工艺  
+ 
+* [第6部分：系统考虑 ](http://tabalt.net/blog/cc2-system-considerations/) 
+
+
+* 第7部分：软件工艺  
   
   * [第31章：布局与风格](http://tabalt.net/blog/cc2-layout-and-style/)
   * [第32章：自说明代码](http://tabalt.net/blog/cc2-self-documenting-code/)

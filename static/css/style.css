@@ -142,7 +142,7 @@ a:hover {
 }
 
 #main-left ul{ 
-    padding-left:40px; 
+    padding-left:15px; 
     margin-bottom: 10px;
 }
 #main-left p{ 
@@ -150,11 +150,12 @@ a:hover {
     margin-bottom:20px; 
 }
 #main-left h3{ 
-    border-left:3px solid #dddddd; 
+    border-bottom:1px solid #eee; 
     padding-left:15px; 
     line-height:22px; 
-    margin:20px 0; 
-    font-size:16px; 
+    margin-bottom:20px;
+    padding: 10px 5px;
+    font-size:18px; 
 }
 #main-left h4 { 
     margin:10px 0; 
