@@ -3,7 +3,7 @@
 layout: post
 title:  "第11章：变量名的力量"
 date:   2014-09-19 12:30:00
-categories: 博文
+categories: []
 
 ---
 

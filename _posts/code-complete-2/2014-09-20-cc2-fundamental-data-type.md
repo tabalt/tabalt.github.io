@@ -3,7 +3,7 @@
 layout: post
 title:  "第12章：基本数据类型"
 date:   2014-09-20 12:30:00
-categories: 博文
+categories: []
 
 ---
 

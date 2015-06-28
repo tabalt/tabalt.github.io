@@ -3,7 +3,7 @@
 layout: post
 title:  "第14章：组织直线型代码"
 date:   2014-09-22 12:30:00
-categories: 博文
+categories: []
 
 ---
 

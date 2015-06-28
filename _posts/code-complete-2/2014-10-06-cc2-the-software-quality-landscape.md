@@ -4,7 +4,7 @@ layout: post
 title:  "第20章：软件质量概述"
 date:   2014-10-06 12:30:00
 categories: 博文
-tags: [代码大全]
+tags: []
 
 ---
 

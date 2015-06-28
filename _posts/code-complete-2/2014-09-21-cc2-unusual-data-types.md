@@ -3,7 +3,7 @@
 layout: post
 title:  "第13章：不常见的数据类型"
 date:   2014-09-21 12:30:00
-categories: 博文
+categories: []
 
 ---
 
