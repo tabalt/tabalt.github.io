@@ -3,7 +3,7 @@
 layout: post
 title:  "第3章：基本工具"
 date:   2014-11-12 12:30:00
-tags: [程序员修炼之道]
+tags: []
 
 keywords: 基本工具,基本工具读书笔记
 description: 《程序员修炼之道》第3章基本工具读书笔记
