@@ -14,10 +14,7 @@
 <body>
     {% include header.html %}
     <div class="container pd20" id="main">
-        <div id="main-left" class="fl">
-            {{ content }}
-        </div>
-        {% include sidebar.html %}
+        {{ content }}
     </div>
 
     {% if paginator.page == 1 %}
