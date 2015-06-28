@@ -165,15 +165,16 @@ a:hover {
 #main-left img { 
     max-width: 90%;
 }
-#main-left pre { 
-    background-color: #f8f8f8; 
-    border: 1px solid #ddd; 
-    font-size: 13px; 
-    line-height: 19px; 
-    overflow: auto; 
-    padding: 6px 10px; 
-    border-radius: 3px; 
+
+#main-left pre {
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
 }
+
 #main-left code { 
     margin: 0; 
     padding: 0;  
