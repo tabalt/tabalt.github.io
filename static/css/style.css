@@ -217,7 +217,7 @@ a:hover {
     
 }
 
-#main-right #wechat-qrcode {
+#main-right .qrcode {
     width: 90%;
     height: 90%;
     margin: 5%;
