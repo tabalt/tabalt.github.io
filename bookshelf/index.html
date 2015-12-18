@@ -10,7 +10,7 @@ menu_selected : bookshelf
     <div class="book-list">
         {% for book in category.members %}
             <div class="book-item">
-                <a href="javascript:void(0)" target="_blank" class="book-click" title="{{ book.name }}" data-name="{{ book.name }}"><img src="{{ book.pic }}" alt="{{ book.name }}" /></a>
+                <a href="javascript:void(0)" target="_blank" class="book-click" title="{{ book.name }}" data-name="{{ book.name }}"><img src="http://static.tabalt.net{{ book.pic }}" alt="{{ book.name }}" /></a>
                 <h4><a href="javascript:void(0)" target="_blank" class="book-click" data-name="{{ book.name }}">{{ book.name }}</a></h4>
             </div>
         {% endfor %}
