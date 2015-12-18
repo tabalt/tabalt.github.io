@@ -20,7 +20,7 @@ storm是分布式的实时流式计算系统，具有低延迟、高性能、分
 
 storm集群架构示意图:
 
-![storm架构总览](/images/storm/overview.jpg)
+![storm架构总览](http://static.tabalt.net/images/storm/overview.jpg)
 
 各组件的功能如下：
 
@@ -33,7 +33,7 @@ storm集群架构示意图:
 
 topology是对spout、bolt、输入输出tuple流、关联关系等的描述，是一个有向无环图（DAG）。
 
-![storm应用topology](/images/storm/topology.jpg)
+![storm应用topology](http://static.tabalt.net/images/storm/topology.jpg)
 
 名词解释：
 

@@ -13,7 +13,7 @@ tags: [mac]
 
 下面是PhotoX的图标，看起来很舒服：
 
-![Mac上最好用的免费看图软件PhotoX的图标](/images/photox/photox.png)
+![Mac上最好用的免费看图软件PhotoX的图标](http://static.tabalt.net/images/photox/photox.png)
 
 
 ### 安装Mac看图软件PhotoX
@@ -42,23 +42,23 @@ tags: [mac]
 ### Mac上最好用的免费看图软件PhotoX的官方图文介绍
 
 
-![快速浏览，打开并浏览同一个文件夹中的图片](/images/photox/1.png)
+![快速浏览，打开并浏览同一个文件夹中的图片](http://static.tabalt.net/images/photox/1.png)
 
 快速浏览，打开并浏览同一个文件夹中的图片
 
-![主浏览，导入相册，然后进行浏览和管理；支持文件拖入拖出](/images/photox/2.png)
+![主浏览，导入相册，然后进行浏览和管理；支持文件拖入拖出](http://static.tabalt.net/images/photox/2.png)
 
 主浏览，导入相册，然后进行浏览和管理；支持文件拖入拖出
 
-![快速浏览全部图片，缩放、排序、复制、删除等](/images/photox/3.png)
+![快速浏览全部图片，缩放、排序、复制、删除等](http://static.tabalt.net/images/photox/3.png)
 
 快速浏览全部图片，缩放、排序、复制、删除等
 
-![预览，快速预览住浏览器中的图片](/images/photox/4.png)
+![预览，快速预览住浏览器中的图片](http://static.tabalt.net/images/photox/4.png)
 
 预览，快速预览住浏览器中的图片
 
-![简单、快速地浏览和管理图片](/images/photox/5.png)
+![简单、快速地浏览和管理图片](http://static.tabalt.net/images/photox/5.png)
 
 简单、快速地浏览和管理图片
 

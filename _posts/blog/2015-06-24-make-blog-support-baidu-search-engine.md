@@ -98,7 +98,7 @@ jekyll serve --port 80 --host 192.168.1.101 --detach
 
 登录DNSPOD，进入域名解析的设置页面，添加一条针对百度的解析：
 
-![DNSPOD DNS智能解析设置](/images/blog/dnspod-dns.jpg)
+![DNSPOD DNS智能解析设置](http://static.tabalt.net/images/blog/dnspod-dns.jpg)
 
 
 ### 后记
