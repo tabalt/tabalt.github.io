@@ -15,7 +15,9 @@ gb项目不放在你的`$GOPATH`中，也不需要为你的gb项目设置或修�
 
 ### 安装gb
 
-gb的官网是：[http://getgb.io/](http://getgb.io/)，github地址是：[https://github.com/constabulary/gb/](https://github.com/constabulary/gb/)。使用如下命令即可安装gb：
+gb的官网是：[http://getgb.io/](http://getgb.io/)，github地址是：[https://github.com/constabulary/gb/](https://github.com/constabulary/gb/)。
+
+使用如下命令即可安装gb：
 
     go get github.com/constabulary/gb/...
 
@@ -25,7 +27,7 @@ gb的官网是：[http://getgb.io/](http://getgb.io/)，github地址是：[https
 
 ### 使用gb进行项目开发
 
-我们以一个简单的提供HTTP页面的“Hello World”程序来学习一下gb的使用。为了体现gb管理第三方包依赖的特性，我们引入一个支持HTTP服务优雅重启的第三方包`github.com/tabalt/gracehttp`。
+我们以一个简单的提供HTTP页面的“Hello World”程序来学习一下gb的使用。为了体现gb管理第三方包依赖的特性，我们引入一个支持HTTP服务优雅重启的第三方包 [github.com/tabalt/gracehttp](https://github.com/tabalt/gracehttp)。
 
 创建gb项目目录结构：
 
