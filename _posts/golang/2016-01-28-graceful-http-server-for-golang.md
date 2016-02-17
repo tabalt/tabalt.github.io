@@ -151,7 +151,7 @@ func checkError(err error) {
 # 运行服务端程序
 go run server.go
 
-# 在另一个命令行窗口运行服务端程序
+# 在另一个命令行窗口运行客户端程序
 go run client.go "tabalt"
 
 ```
