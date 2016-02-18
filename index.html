@@ -9,7 +9,7 @@ menu_selected : blog
 {% for post in paginator.posts %}
 <div class="post-item">
     <div class="post-title mb10">
-        <h2 ><a href="{{ post.url }}/">{{ post.title }}</a></h2>
+        <h2 ><a href="{{ post.url | replace : '/index.html', ''}}/">{{ post.title }}</a></h2>
     </div>
     <div class="post-content thumbnail">
 		{{ post.excerpt | strip_html | strip }}
