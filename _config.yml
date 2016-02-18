@@ -6,7 +6,7 @@ baseurl: /
 encoding: utf-8
 
 #permalink: pretty
-permalink: /blog/:title
+permalink: /blog/:title.html
 paginate: 10
 paginate_path: "page/:num"
 
