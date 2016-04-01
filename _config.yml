@@ -1,5 +1,5 @@
 name: tabalt's blog
-markdown: redcarpet
+markdown: kramdown
 #pygments: true
 highlighter: rouge
 baseurl: /
@@ -10,5 +10,5 @@ permalink: "/blog/:title/index.html"
 paginate: 10
 paginate_path: "page/:num"
 
-redcarpet:
-    extensions: ["tables", "autolink"]
+#redcarpet:
+#    extensions: ["tables", "autolink"]
