@@ -10,5 +10,7 @@ permalink: "/blog/:title/index.html"
 paginate: 10
 paginate_path: "page/:num"
 
+gems: [jekyll-paginate]
+
 #redcarpet:
 #    extensions: ["tables", "autolink"]
