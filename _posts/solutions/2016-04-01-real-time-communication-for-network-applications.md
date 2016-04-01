@@ -67,19 +67,19 @@ excerpt: 网络应用程序的实时通信简单理解是指 基于网络的应�
 
 * Pushlet
 
-    Pushlet 是一个开源的Comet框架。Comet 是指基于HTTP长连接、无须在浏览器端安装插件的“服务器推” 技术；因此实际上Pushlet是比较老一代的基于长连接的方案，如想了解更多可以参考Pushlet的官网：http://www.pushlets.com/ 。
+    Pushlet 是一个开源的Comet框架。Comet 是指基于HTTP长连接、无须在浏览器端安装插件的“服务器推” 技术；因此实际上Pushlet是比较老一代的基于长连接的方案，如想了解更多可以参考Pushlet的官网：[http://www.pushlets.com/](http://www.pushlets.com/) 。
 
 * Socket.IO
 
     Socket.IO是支持WebSocket协议的跨平台开源实时通信解决方案，Web客户端由JavaScript实现，服务端由Node.js实现，也有第三方在Android、iOS等平台下的客户端实现。 除了支持WebSocket协议，Socket.IO还支持上面介绍过的其他方式，并封装成了通用的接口，在服务端实现了这些方式的相应代码， 在浏览器端能根据这些方式的支持情况自动选择最佳方式。
 
-    Socket.IO 的官网是：http://socket.io/，GitHub地址是：https://github.com/socketio/socket.io。
+    Socket.IO 的官网是：[http://socket.io/](http://socket.io/)，GitHub地址是：[https://github.com/socketio/socket.io](https://github.com/socketio/socket.io)。
 
 
 ### 参考资料
 
-* http://www.cnblogs.com/hoojo/p/longPolling_comet_jquery_iframe_ajax.html
-* http://www.ibm.com/developerworks/cn/web/wa-lo-comet/
-* https://www.zhihu.com/question/27498235/answer/73682175
-* http://www.infoq.com/cn/news/2015/01/socket-io-websocket/
+* [http://www.cnblogs.com/hoojo/p/longPolling_comet_jquery_iframe_ajax.html](http://www.cnblogs.com/hoojo/p/longPolling_comet_jquery_iframe_ajax.html)
+* [http://www.ibm.com/developerworks/cn/web/wa-lo-comet/](http://www.ibm.com/developerworks/cn/web/wa-lo-comet/)
+* [https://www.zhihu.com/question/27498235/answer/73682175](https://www.zhihu.com/question/27498235/answer/73682175)
+* [http://www.infoq.com/cn/news/2015/01/socket-io-websocket/](http://www.infoq.com/cn/news/2015/01/socket-io-websocket/)
 
