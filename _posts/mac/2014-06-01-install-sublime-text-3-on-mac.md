@@ -44,7 +44,8 @@ sublime text 编辑器可以说是码农必备的编辑器了，它拥有优秀�
 
 	安装`Package Control`是扩展你的sublime的第一步，可以通过Package Control很方便的安装其他插件。最简单的安装方式是按  <code>ctrl + `</code> ，然后在下方弹出的输入框中输入如下代码并回车：
 	
-		import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+		import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
 	
 	不出意外的话，Package Control就会安装成功。如果你不知道是否安装成功，可以查看是否存在菜单 Preferences > Package Control，存在则已经正确安装；或者按`shift + command + p`。 如果你的版本不是 3，或者安装有问题，可以查看Package Control的官网上的安装教程：
 	
