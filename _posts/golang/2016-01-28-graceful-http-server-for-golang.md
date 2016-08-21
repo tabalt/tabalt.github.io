@@ -394,7 +394,7 @@ func (this *Server) getNetTCPListener(addr string) (*net.TCPListener, error) {
 
 ```
 
-### 3、父进程等待已有连接中未完成的请求处理完毕
+#### 3、父进程等待已有连接中未完成的请求处理完毕
 
 这一块是最复杂的；首先我们需要一个计数器，在成功Accept一个连接时，计数器加1，在连接关闭时计数减1，计数器为0时则父进程可以正常退出了。Golang的sync的包里的WaitGroup可以很好地实现这个功能。
 
@@ -451,7 +451,7 @@ func (this *Connection) Close() error {
 }
 ```
 
-### 4、gracehttp包的用法
+#### 4、gracehttp包的用法
 
 gracehttp包已经应用到每天几亿PV的项目中，也开源到了github上：[github.com/tabalt/gracehttp](https://github.com/tabalt/gracehttp)，使用起来非常简单。
 
