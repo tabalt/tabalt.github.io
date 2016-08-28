@@ -52,7 +52,8 @@ function buildArticleIndex() {
             //<p>文章目录</p>
             s = '<ul>' + s + '</ul>';
 
-            ai.append(s);  
+            ai.append(s);
+            ai.show();
         }          
     }
 }

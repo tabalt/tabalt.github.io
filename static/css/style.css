@@ -149,6 +149,7 @@ a:hover {
     top: 100px;
     border: 1px solid #eee;
     font-size: 14px;
+    display: none;
 }
 
 .article-index p{
@@ -453,6 +454,17 @@ table th {
 
     #waterfall .tag-item {
         width: 98%;
+    }
+
+    .article-index {
+        float: none;
+        top: 100px;
+        border: 1px solid #eee;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     
 }
