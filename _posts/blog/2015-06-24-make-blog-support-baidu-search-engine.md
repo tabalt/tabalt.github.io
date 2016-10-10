@@ -91,7 +91,7 @@ jekyll serve --port 80 --host 192.168.1.101 --detach
 
 使用前述方式启动的http服务，会独占这台服务器的 `80` 端口，如果这台机器还需部署其他的web站点，则不得不使用其他非80的端口。
 
-使用Nginx可以解决这个问题，配置一个Nginx的vhost，可以使用`jekyll build --watch &`生成博客的静态内容，并将站点根目录设置为 `~/mydomain.com/_site/`，这里不做具体介绍了。
+使用Nginx可以解决这个问题，配置一个Nginx的vhost，可以使用`nohup jekyll build --watch &`生成博客的静态内容，并将站点根目录设置为 `~/mydomain.com/_site/`，这里不做具体介绍了。
 
 
 ### 配置智能dns
