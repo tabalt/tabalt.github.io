@@ -25,7 +25,7 @@ description:
 
 * [第4章 文件和目录](http://tabalt.net/blog/apue3-files-and-directories/)
 
-* 第5章 标准I/O库
+* [第5章 标准I/O库](http://tabalt.net/blog/apue3-standard-io-library/)
 
 * 第6章 系统数据文件和信息
 
