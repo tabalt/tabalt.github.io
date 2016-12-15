@@ -39,7 +39,7 @@ tcpdump -i eth0 host 192.168.1.101 and port 3306 -w ~/mysql.cap
 
 抓了好一会，`~/mysql.cap` 文件中却也没有任何输出，难道进程和Mysql之间已经没有任何交互了？那为什么连接建立没有关闭呢？看来只能从头追踪一下脚本的执行情况了：
 
-* 首先为了能来得及strace到进程，在PHP脚本最开始的时候输出进程的pid并sleep 10s，代码如下:
+* 首先为了能来得及strace到进程，在PHP脚本最开始的时候输出进程的pid并sleep 10s:
 
     ```
     echo getmypid();
@@ -48,7 +48,7 @@ tcpdump -i eth0 host 192.168.1.101 and port 3306 -w ~/mysql.cap
 
 * 然后启动tcpdump准备抓包本机和Mysql的交互过程。
 
-* 最后执行PHP脚本。
+* 最后执行PHP脚本，并复制输出的pid后在新窗口中执行strace命令。
 
 这下strace和tcpdump都有内容了！从strace结果看recvfrom之后不再有poll，但并没有看出来有什么不对：
 
@@ -63,8 +63,8 @@ recvfrom(4, "_b?ie=UTF8&node=658390051\0\0008www."..., 271, MSG_DONTWAIT, NULL, 
 再从抓包结果看，执行了两条SQL查询语句之后，进程没有再次发送查询请求的包，从程序记录SQL语句日志中，也发现确实只执行了两条：
 
 ```
-select * from sites where type = 1 order by weight desc limit 50;
-select * from sites where type = 2 order by weight desc limit 50;
+select * from sites where type = 1 limit 50;
+select * from sites where type = 2 limit 50;
 ```
 
 但从这些现象中，仍然没有能看出任何端倪，只好祭出终极大法：输出调试！大概看了下代码，并在关键地方添加输出语句，于是代码看起来如下：
@@ -92,13 +92,13 @@ foreach 2
 ```
 $sites = array();   // 省略从数据库查询的代码
 $siteNum = 8;       // 省略从配置读的代码
-$urlKeys = array();
+$urlKeys = $result = array();
 for($i = 0; $i < $siteNum; $i++)
 {
     do {
-        $site = array_shift($sitesData);
+        $site = array_shift($sites);
         $urlKey = md5($site['url']);
-    } while(array_key_exists($urlKey, $url_keys));
+    } while(array_key_exists($urlKey, $urlKeys));
 
     $urlKeys[$urlKey] = 1;
     $result[] = $site;
