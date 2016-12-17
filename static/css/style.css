@@ -288,12 +288,13 @@ a:hover {
     width: 100%;
     padding: 0;
 }
-.article-sourcelink, .article-dashang {
-    margin: 5px auto;
+.article-dashang {
+    margin-top: 25px;
     font-size: 14px;
+    text-align: center;
 }
 .article-dashang img{
-    margin-top: 5px;
+    margin: 5px auto;
 }
 
 .post-item .time { 
