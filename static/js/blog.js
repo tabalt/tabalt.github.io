@@ -13,11 +13,10 @@ window.onload = function () {
 }
 
 function buildArticleIndex() {
-    
     var ai = $(".article-index");
     if (ai.length > 0) {
-        atl = ai.parent();
-        hs = atl.children('h1,h2,h3,h4,h5,h6');
+        atlc = ai.parent().find(".article-content");
+        hs = atlc.children('h1,h2,h3,h4,h5,h6');
 
         var lh = 0, ulc = 0;
         var s = "";
