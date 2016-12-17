@@ -128,6 +128,7 @@ a:hover {
 #main { 
     padding-top: 10px;
 }
+
 #main a{
     color: #4183c4;
     text-decoration: underline;
@@ -137,46 +138,9 @@ a:hover {
     width: 69%;
     
 }
+
 #main-right {
     width: 28%;
-}
-
-.article-index {
-    margin-left: 10px;
-    float: right;
-    /*background: blue;*/
-    /*position: absolute;*/
-    top: 100px;
-    border: 1px solid #eee;
-    font-size: 14px;
-    display: none;
-}
-
-.article-index p{
-    margin: 10px 20px !important;
-    font-weight: bold;
-    font-size: 16px;
-}
-.article-index p span{
-    font-weight: normal;
-    float:right;
-}
-
-.article-index ul {
-    padding-left: 0;
-    margin: 5px 10px 5px 5px !important;
-}
-
-.article-index ul li{
-    /*list-style: none;*/
-}
-
-.article-index ul li a{
-    text-decoration: none !important;
-}
-
-.article-index ul li a:hover{
-    text-decoration: underline !important;
 }
 
 #main-right .side-item {
@@ -277,14 +241,59 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.post-content {
-
+.article-index {
+    margin-left: 10px;
+    float: right;
+    top: 100px;
+    border: 1px solid #eee;
+    font-size: 14px;
+    display: none;
 }
 
-.post-sourcelink {
-    border:1px dashed #ccc;
-    padding:10px;
-    margin-top: 20px;
+.article-index p{
+    margin: 10px 20px !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.article-index p span{
+    font-weight: normal;
+    float:right;
+}
+
+.article-index ul {
+    padding-left: 0;
+    margin: 5px 10px 5px 5px !important;
+}
+
+.article-index ul li{
+    /*list-style: none;*/
+}
+
+.article-index ul li a{
+    text-decoration: none !important;
+}
+
+.article-index ul li a:hover{
+    text-decoration: underline !important;
+}
+
+.article-content {
+    border-bottom: 20px;
+}
+
+.hr {
+    margin:5px auto;
+    border-top:1px solid #eee;
+    height: 0px;
+    width: 100%;
+    padding: 0;
+}
+.article-sourcelink, .article-dashang {
+    margin: 5px auto;
+    font-size: 14px;
+}
+.article-dashang img{
+    margin-top: 5px;
 }
 
 .post-item .time { 
