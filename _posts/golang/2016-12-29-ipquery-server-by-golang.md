@@ -2,8 +2,8 @@
 
 layout: post
 title:  "基于Golang的IP地址信息查询服务"
-date:   2016-12-26 12:30:00
-excerpt: 
+date:   2016-12-29 12:30:00
+excerpt: 工作中经常会有通过IP匹配用户信息的需求，本文主要介绍IP地址信息查询的实现细节和使用方式。
 tags: [golang]
 
 ---
@@ -13,8 +13,8 @@ tags: [golang]
 
 首先交代一下GitHub地址：
 
-* IpQuery Golang Package：https://github.com/tabalt/ipquery
-* IP地址信息查询服务：https://github.com/tabalt/ipqueryd
+* IpQuery Golang Package：[https://github.com/tabalt/ipquery](https://github.com/tabalt/ipquery)
+* IP地址信息查询服务：[https://github.com/tabalt/ipqueryd](https://github.com/tabalt/ipqueryd)
 
 欢迎大家在项目中使用（已通过N亿日PV服务的考验），有任何问题或建议，请提交Issue反馈或Fork到自己名下修改后提交Pull Request。
 
