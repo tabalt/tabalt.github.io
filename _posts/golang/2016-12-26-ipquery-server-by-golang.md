@@ -170,4 +170,70 @@ ok      ipquery 34.510s
 
 ### IP地址信息查询服务介绍
 
+如文章开头所说，这个项目基于ipquery包提供HTTP和GRPC接口，名字也就很俗的取为ipqueryd。个人习惯项目级的Go代码不放在全局的GOPATH里，而是使用shell脚本来动态修改GOPATH为项目目录后执行go命令，因此可以使用如下步骤运行本项目：
 
+```
+[tabalt@localhost ~] git clone https://github.com/tabalt/ipqueryd.git ~/$NOT_YOUR_GOPATH/
+[tabalt@localhost ipqueryd] cd ~/$NOT_YOUR_GOPATH/ipqueryd
+[tabalt@localhost ipqueryd] ./ctrl.sh run
+```
+
+#### 配置文件
+
+项目中conf目录下有个ipqueryd.json的配置文件，可以配置PID文件、HTTP服务端口、GRPC服务端口、数据文件路径等内容，可以根据需求修改；服务端口可以只配其中一个也可以两个都配上。
+
+```
+{
+    "pid_file": "./tmp/ipqueryd.pid",
+    "http_server_port": ":12101",
+    "grpc_server_port": ":12102",
+    "data_file": "./data/ip_data.txt"
+}
+```
+
+#### HTTP接口
+
+HTTP接口支持返回JSON格式和JSONP格式的响应，下面使用命令行测试：
+```
+[tabalt@localhost ipqueryd] curl "http://127.0.0.1:12101/find?ip=1.1.8.1"
+{"data":["广东省电信"]}
+
+[tabalt@localhost ipqueryd] curl "http://127.0.0.1:12101/find?ip=1.1.8.1&_callback=showip"
+showip({"data":["广东省电信"]});
+``` 
+
+#### GRPC接口
+
+GRPC接口需要使用以你熟悉的语言编写客户端，下面的代码是Golang中的简单使用：
+```
+package main
+
+import (
+	"log"
+
+	"golang.org/x/net/context"
+	"google.golang.org/grpc"
+
+	"pb"
+)
+
+func main() {
+	conn, err := grpc.Dial("127.0.0.1:12102", grpc.WithInsecure())
+	if err != nil {
+		log.Fatalf("did not connect: %v", err)
+	}
+	defer conn.Close()
+
+	iqc := pb.NewIpQueryClient(conn)
+
+	ip := "1.1.8.1"
+
+	r, err := iqc.Find(context.Background(), &pb.IpFindRequest{Ip: ip})
+	if err != nil {
+		log.Fatalf("could not find: %v", err)
+	}
+	log.Printf("ip data: %s", r.Data)
+}
+```
+
+更多内容等你来发现和贡献！
