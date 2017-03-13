@@ -205,7 +205,7 @@ a:hover {
 #opensource-project .project-stars {
     color: #767676;
     float: right;
-    display: none;
+    /*display: none;*/
 }
 
 
