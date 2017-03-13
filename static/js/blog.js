@@ -9,7 +9,7 @@ window.onload = function () {
     }
 
     //生成文章索引
-    buildArticleIndex();
+    //buildArticleIndex();
 }
 
 function buildArticleIndex() {
