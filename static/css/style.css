@@ -241,6 +241,10 @@ a:hover {
     margin-bottom: 20px;
 }
 
+.highlighter-rouge {
+    clear:both;
+}
+
 .article-index {
     margin-left: 10px;
     float: right;
