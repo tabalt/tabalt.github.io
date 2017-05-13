@@ -1,0 +1,27 @@
+---
+layout: default
+title: 工作机会
+menu_selected : 
+---
+
+<div id="job">
+    {% for job in site.data.joblist %}
+    <div class="post-item">
+        <div class="post-title mb10">
+            <h2>{{ job.name }}</h2>
+        </div>
+        <div class="post-content">
+            {% for inf in job.info %}
+                <div class="job-desc-item">
+                    <h4>{{ inf.name }}</h4>
+                    <ul>
+                    {% for des in inf.desc %}
+                        <li>{{ des }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>

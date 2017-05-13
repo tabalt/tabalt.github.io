@@ -1237,3 +1237,49 @@ pre {
   position: relative;
   border-color: #4078c0;
 }
+
+#job {
+  margin-top: 10px;
+}
+
+#job .post-item {
+  border: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+#job .post-title {
+  margin: 0 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+#job .post-content {
+  margin: 30px;
+}
+
+#job .job-desc-item {
+  margin:15px 0;
+}
+
+#job .job-desc-item h4{
+  margin:10px 0;
+  /*color: #767676;*/
+}
+#job .job-desc-item ul{
+  margin-left:30px;
+}
+#job .job-desc-item ul li{
+  line-height: 25px;
+}
+
+.tips-ad {
+  background: #f75f43;
+  height: 30px;
+  line-height: 30px;
+  margin:20px 0; 
+  text-align: center;
+}
+
+#main .tips-ad a {
+  color: #fff;
+}
