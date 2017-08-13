@@ -3,7 +3,7 @@
 layout: post
 title:  "一次Mysql改表引发LVS下RS机器全下线的问题"
 date:   2017-08-13 15:08:00
-excerpt: 某天下午正在和code苦战的我突然收到报警短信，们有个业务电信机房LVS下的RS机器全部下线了...
+excerpt: 某天下午正在和code苦战的我突然收到报警短信，有个业务电信机房LVS下的RS机器全部下线了...
 tags: []
 
 ---
