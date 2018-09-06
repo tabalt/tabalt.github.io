@@ -37,7 +37,7 @@ Docker是一个使用Golang开发的开源应用容器引擎，让开发者可�
 
 ### Docker各组件结构
 
-![Docker各组件结构](images/docker/architecture.jpg)
+![Docker各组件结构](/images/docker/architecture.jpg)
 
 ### 下载&安装&启动 Docker
 
