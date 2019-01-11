@@ -61,8 +61,8 @@ tags: [mac,nginx,php,mysql]
 
 给予管理员权限
 	
-	sudo chown root:wheel/usr/local/opt/nginx/bin/nginx
-	sudo chmod u+s/usr/local/opt/nginx/bin/nginx
+	sudo chown root:wheel /usr/local/opt/nginx/bin/nginx
+	sudo chmod u+s /usr/local/opt/nginx/bin/nginx
 
 加入launchctl启动控制
 	
