@@ -4,7 +4,7 @@ layout: post
 title:  "Mac OS 上golang开发环境安装与配置"
 date:   2014-06-02 11:30:00
 categories: 博文
-tags: [mac,golang]
+tags: [Mac,Golang]
 
 ---
 

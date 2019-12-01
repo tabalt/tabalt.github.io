@@ -4,7 +4,7 @@ layout: post
 title:  "[Q群技术讨论] 移动端APP内嵌HTML5页面，如何提升性能与体验？"
 discuss_key: "improve-performance-of-html5-page-in-native-app"
 date:   2015-02-03 12:30:00
-tags: [html5]
+tags: [HTML5]
 
 keywords: APP内嵌HTML5,HTML5页面性能
 description: 移动端APP内嵌HTML5页面，可以减少工作量，提高开发效率，但是体验会打折扣，是否可以提升内嵌在APP中的HTML5网页的性能与体验？

@@ -3,7 +3,7 @@
 layout: post
 title:  "分布式版本控制系统git在项目开发中的使用"
 date:   2014-10-11 12:30:00
-tags: [git,github]
+tags: [Git,Github]
 
 keywords: git,git使用,git本地分支,git远程分支,git冲突处理
 description: git是更稳定、更强大、更现代的分布式版本控制工具，值得大家去尝试与应用。文本介绍如何在项目开发中使用git的本地分支和远程分支，并详细介绍git冲突的处理。

@@ -3,7 +3,7 @@
 layout: post
 title:  "PHP标准化规范PSR 0、PSR 1、PSR 2、PSR 3、PSR 4"
 date:   2015-02-28 12:30:00
-tags: [php]
+tags: [PHP]
 
 ---
 

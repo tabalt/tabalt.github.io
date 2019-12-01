@@ -4,7 +4,7 @@ layout: post
 title:  "Nginx虚拟主机（Virtual Host）配置"
 date:   2014-06-26 00:30:00
 categories: 博文
-tags: [nginx]
+tags: [Nginx]
 
 ---
 

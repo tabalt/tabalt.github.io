@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title:  "开发与运行storm拓扑应用（topology）"
+title:  "开发与运行Storm拓扑应用（Topology）"
 date:   2014-12-17 12:30:00
-tags: [storm]
+tags: [Storm]
 
 keywords: storm应用开发步骤,如何开发storm应用,topology开发运行
 description: 本文介绍storm应用topology的开发步骤，提供一个storm应用的示例以及讲述如何运行storm应用等。

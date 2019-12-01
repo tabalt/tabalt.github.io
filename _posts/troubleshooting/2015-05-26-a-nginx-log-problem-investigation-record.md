@@ -3,7 +3,7 @@
 layout: post
 title:  "一次nginx日志问题的排查记录"
 date:   2015-05-26 15:08:00
-tags: [nginx]
+tags: [Nginx]
 
 ---
 

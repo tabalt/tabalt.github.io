@@ -3,7 +3,7 @@
 layout: post
 title:  "让GitHub Pages博客支持百度搜索引擎收录"
 date:   2015-06-24 00:30:56
-tags: [github]
+tags: [Github]
 
 ---
 

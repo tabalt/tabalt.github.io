@@ -4,7 +4,7 @@ layout: post
 title:  "Golang包依赖管理工具gb"
 date:   2016-01-16 11:30:00
 categories: 博文
-tags: [golang]
+tags: [Golang]
 
 ---
 

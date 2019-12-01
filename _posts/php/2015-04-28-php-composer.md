@@ -3,7 +3,7 @@
 layout: post
 title:  "PHP 依赖管理工具 Composer"
 date:   2015-04-28 15:08:00
-tags: [php]
+tags: [PHP]
 
 ---
 

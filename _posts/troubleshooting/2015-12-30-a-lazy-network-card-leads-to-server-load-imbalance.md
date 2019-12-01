@@ -3,7 +3,7 @@
 layout: post
 title:  "一块偷懒的网卡导致的服务器负载异常"
 date:   2015-12-30 15:08:00
-tags: [linux]
+tags: [Linux]
 
 ---
 

@@ -3,7 +3,7 @@
 layout: post
 title:  "开源的访问日志分析shell脚本"
 date:   2014-10-30 12:30:00
-tags: [shell]
+tags: [Shell]
 
 keywords: access log,日志分析
 description: 开源的分析访问日志（access log）的shell脚本

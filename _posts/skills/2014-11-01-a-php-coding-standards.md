@@ -3,7 +3,7 @@
 layout: post
 title:  "一份PHP编码规范"
 date:   2014-11-01 12:30:00
-tags: [php]
+tags: [PHP]
 
 keywords: php编码规范
 description: 这是一份PHP编码规范

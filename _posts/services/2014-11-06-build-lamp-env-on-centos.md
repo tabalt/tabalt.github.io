@@ -3,9 +3,9 @@
 layout: post
 title:  "centos源码编译安装lamp环境"
 date:   2014-11-06 12:30:00
-tags: [linux,php,mysql]
+tags: [Linux,PHP,Mysql]
 
-keywords: linux,lamp
+keywords: Linux,Lamp
 description: 本文介绍在centos系统上使用源码编译安装lamp环境的过程。
 
 ---

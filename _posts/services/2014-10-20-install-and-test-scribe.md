@@ -3,7 +3,7 @@
 layout: post
 title:  "日志收集系统scribe的安装与测试"
 date:   2014-10-20 12:30:00
-tags: [scribe]
+tags: [Scribe]
 
 keywords: scribe,scribe日志收集,scribe安装,scribe启动,scribe测试
 description: scribe是facebook开源的分布式收集，统一处理的大规模日志收集软件。本文详细介绍scribe日志收集系统的安装与启动、测试的过程。

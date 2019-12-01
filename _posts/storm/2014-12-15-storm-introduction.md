@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title:  "分布式的实时流式计算系统storm简要介绍"
+title:  "分布式的实时流式计算系统Storm简要介绍"
 date:   2014-12-15 12:30:00
-tags: [storm]
+tags: [Storm]
 
 keywords: 计算介绍,流式计算介绍,storm简介,storm介绍
 excerpt: storm是分布式的实时流式计算系统，具有低延迟、高性能、分布式、可扩展、容错性好、不丢失消息、易于开发应用等特点；本文介绍storm的集群架构、topology以及相关名称解释，并探讨storm的同步和异步应用场景。

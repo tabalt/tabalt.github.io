@@ -4,7 +4,7 @@ layout: post
 title:  "编写可测试的Go代码"
 date:   2016-08-14 11:30:00
 excerpt: Golang作为一门标榜工程化的语言，提供了非常简便、实用的编写单元测试的能力。本文通过Golang源码包中的用法，来学习在实际项目中如何编写可测试的Go代码。
-tags: [golang]
+tags: [Golang]
 
 ---
 
