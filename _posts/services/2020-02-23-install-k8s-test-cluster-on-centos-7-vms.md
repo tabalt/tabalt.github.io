@@ -2,7 +2,7 @@
 
 layout: post
 title:  "CentOS 7 Minimal 虚拟机环境 Kubernetes(k8s)测试集群安装"
-date:   2020-02-23 12:30:00
+date:   2020-02-23 00:30:00
 excerpt: CentOS 7 Minimal 虚拟机环境 Kubernetes(k8s)测试集群安装
 tags: [Docker]
 
